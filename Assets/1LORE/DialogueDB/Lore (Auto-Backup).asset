@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: Lore
+  m_Name: Lore (Auto-Backup)
   m_EditorClassIdentifier: 
   version: 
   author: 
@@ -61,28 +61,6 @@ MonoBehaviour:
     fields:
     - title: Name
       value: Lola
-      type: 0
-      typeString: 
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
-    - title: Description
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: IsPlayer
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
-    portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
-    alternatePortraits: []
-    spritePortraits: []
-  - id: 3
-    fields:
-    - title: Name
-      value: Sinag
       type: 0
       typeString: 
     - title: Pictures
@@ -180,7 +158,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -223,35 +201,33 @@ MonoBehaviour:
     - id: 1
       fields:
       - title: Title
-        value: 
+        value: Sinag
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Description
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Actor
-        value: 3
-        type: 5
+        value: -1
+        type: 0
         typeString: CustomFieldType_Actor
       - title: Conversant
         value: 1
-        type: 5
+        type: 0
         typeString: CustomFieldType_Actor
       - title: Menu Text
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Dialogue Text
         value: "Sobrang tagal na nang huling makauwi ako ng probinsya\u2026                                                    "
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Sequence
-        value: '{{default}};
-
-          CinemachineTarget(Virtual Camera, listener,follow)'
+        value: "CinemachineTarget(vcam, listener, follow)\r"
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -273,8 +249,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 162.02914
-        y: 79
+        x: 161
+        y: 80
         width: 160
         height: 30
     - id: 2
@@ -288,12 +264,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
-        type: 5
+        value: -1
+        type: 0
         typeString: CustomFieldType_Actor
       - title: Conversant
         value: 1
-        type: 5
+        type: 0
         typeString: CustomFieldType_Actor
       - title: Menu Text
         value: 
@@ -304,12 +280,6 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: '{{default}};
-
-          CinemachineTarget(Virtual Camera, Player,follow)'
-        type: 0
-        typeString: 
-      - title: Response Menu Sequence
         value: 
         type: 0
         typeString: 
@@ -333,8 +303,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 5.5630937, y: 2.9999921}
-    canvasZoom: 1.03
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1
   syncInfo:
     syncActors: 0
     syncItems: 0

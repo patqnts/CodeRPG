@@ -1,3 +1,4 @@
+using MoreMountains.Tools;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,7 +21,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        movementInput = new Vector2(joystick.Horizontal, joystick.Vertical);
+        movementInput.x = Input.GetAxisRaw("Horizontal");
+        movementInput.y = Input.GetAxisRaw("Vertical");
     }
 
     private void FixedUpdate()
@@ -54,5 +56,11 @@ public class PlayerController : MonoBehaviour
         circleCollider.enabled = true;
         yield return new WaitForSeconds(1f);
         circleCollider.enabled = false;
+    }
+
+    private void OnDisable()
+    {
+        // Set velocity to zero when the script is disabled
+        rb.velocity = Vector2.zero;
     }
 }
