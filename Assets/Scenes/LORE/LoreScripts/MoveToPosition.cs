@@ -21,6 +21,7 @@ public class MoveToPosition : MonoBehaviour
     // Coroutine to smoothly move the gameObject to the target position
     private IEnumerator MoveCoroutine(Vector3 targetPosition, float speed)
     {
+        gameObjectToMove.gameObject.GetComponent<CircleCollider2D>().enabled = false;
         while (Vector3.Distance(gameObjectToMove.position, targetPosition) > 0.01f)
         {
             // Calculate the direction towards the target position
@@ -37,6 +38,7 @@ public class MoveToPosition : MonoBehaviour
         gameObjectToMove.position = targetPosition;
         FlipSpriteX();
         PixelCrushers.DialogueSystem.Sequencer.Message("SceneEnd");
+        gameObjectToMove.gameObject.GetComponent<CircleCollider2D>().enabled = true;
     }
 
     public void FlipSpriteX()
