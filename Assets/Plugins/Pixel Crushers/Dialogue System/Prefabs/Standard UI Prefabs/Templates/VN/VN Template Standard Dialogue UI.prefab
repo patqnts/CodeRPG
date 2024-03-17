@@ -3662,7 +3662,7 @@ GameObject:
   - component: {fileID: 11458444}
   - component: {fileID: 11404064}
   m_Layer: 5
-  m_Name: Dialogue Panel
+  m_Name: Dialogue Panel Lore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

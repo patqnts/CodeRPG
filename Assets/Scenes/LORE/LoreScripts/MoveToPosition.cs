@@ -36,6 +36,7 @@ public class MoveToPosition : MonoBehaviour
         // Ensure the gameObject is exactly at the target position
         gameObjectToMove.position = targetPosition;
         FlipSpriteX();
+        PixelCrushers.DialogueSystem.Sequencer.Message("SceneEnd");
     }
 
     public void FlipSpriteX()

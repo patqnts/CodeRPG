@@ -1727,13 +1727,15 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: ' '
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'Delay(5);
+        value: 'SetDialoguePanel(false);
 
-          SetActive(CanvasLore,false);'
+          required SetDialoguePanel(true)@Message(SceneEnd);
+
+          Continue()@Message(SceneEnd)'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -1751,7 +1753,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 1
         destinationConversationID: 4
-        destinationDialogueID: 2
+        destinationDialogueID: 3
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1761,11 +1763,11 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 159
         y: 80
         width: 160
         height: 30
-    - id: 2
+    - id: 3
       fields:
       - title: Title
         value: 
@@ -1810,8 +1812,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 163
-        y: 152
+        x: 159
+        y: 153
         width: 160
         height: 30
     entryGroups: []
