@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: deef49770112c694b907f603a19cc7e3
+guid: ede8fe17b42c4e947a05c2d4ea174073
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,253 +123,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Batala_0
+      name: $herbalist_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a7802b66d00a344b8fbf190a318d77
+      internalID: 101135900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $herbalist_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9ef40b1cbbd5a4a969e217abb5bfa4
+      internalID: -299609102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $herbalist_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee61c470222038f4db8a615cbe7f28e5
+      internalID: -110152658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $herbalist_3
       rect:
         serializedVersion: 2
         x: 0
         y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3b46aef5493d544db2ff6a49e44781c
-      internalID: -246907881
+      spriteID: e773dd44ded524a439aadaecfa9964d3
+      internalID: 219440835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Batala_1
+      name: $herbalist_4
       rect:
         serializedVersion: 2
-        x: 32
+        x: 48
         y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1512ab009415d4e4faa0bc729dddcdef
-      internalID: 968921910
+      spriteID: a59f3b48a8ded49479b4cb8774f44f62
+      internalID: -1818366172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Batala_2
+      name: $herbalist_5
       rect:
         serializedVersion: 2
-        x: 64
+        x: 96
         y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d132005d1e755b499bfbe94af534c28
-      internalID: -223382110
+      spriteID: 6bb47fb570228b949b75f9f14481a03e
+      internalID: -492397208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Batala_3
+      name: $herbalist_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 48
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b64f1331df30bf45ad867db7bfdc2d6
-      internalID: -1953495969
+      spriteID: a83108e636a4e484fa5621923b3f560f
+      internalID: 133219177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Batala_4
+      name: $herbalist_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed8def51192fa9447aadf0fe23c8972b
-      internalID: 707131758
+      spriteID: 6a7f779e7f8dec947aa2c5180b49dec2
+      internalID: -1704842806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Batala_5
+      name: $herbalist_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 726e885a30f01794889df19783081010
-      internalID: -1962182296
+      spriteID: 34a95e0415cb57c4cb27ad9e11a318da
+      internalID: -1906088821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Batala_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77a6db05ba6de8645aa039f949e1ba0d
-      internalID: 724532309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Batala_7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04cb5625ceaaab848a179c1cb6f6ce13
-      internalID: 1953513071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Batala_8
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6e79386b83e9264ea7823034a96c7ce
-      internalID: -375611062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Batala_9
+      name: $herbalist_9
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59029c741ac963041b5685863c9aed2d
-      internalID: 1815596814
+      spriteID: 0036787c4b3addf4c863f825cfcb42bf
+      internalID: -795541132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Batala_10
+      name: $herbalist_10
       rect:
         serializedVersion: 2
-        x: 32
+        x: 48
         y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe7f7753c1e838f48a8e0469df65777e
-      internalID: 1042730402
+      spriteID: ace183c2dd589da4d913b7cabc8f6f9f
+      internalID: 1746494077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Batala_11
+      name: $herbalist_11
       rect:
         serializedVersion: 2
-        x: 64
+        x: 96
         y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b810fc7451ac574489bacca5e69c2072
-      internalID: 443833516
+      spriteID: b78ccfae03e30ef4d86eac97920d98f4
+      internalID: -1501601825
       vertices: []
       indices: 
       edges: []
@@ -385,18 +385,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Batala_0: -246907881
-      Batala_1: 968921910
-      Batala_10: 1042730402
-      Batala_11: 443833516
-      Batala_2: -223382110
-      Batala_3: -1953495969
-      Batala_4: 707131758
-      Batala_5: -1962182296
-      Batala_6: 724532309
-      Batala_7: 1953513071
-      Batala_8: -375611062
-      Batala_9: 1815596814
+      $herbalist_0: 101135900
+      $herbalist_1: -299609102
+      $herbalist_10: 1746494077
+      $herbalist_11: -1501601825
+      $herbalist_2: -110152658
+      $herbalist_3: 219440835
+      $herbalist_4: -1818366172
+      $herbalist_5: -492397208
+      $herbalist_6: 133219177
+      $herbalist_7: -1704842806
+      $herbalist_8: -1906088821
+      $herbalist_9: -795541132
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
