@@ -23,10 +23,7 @@ public class NPCMovementController : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            PullingScene();
-        }
+        
         // Calculate the distance between the NPC and the player
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 

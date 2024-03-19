@@ -216,6 +216,56 @@ MonoBehaviour:
       value: 'Status: [var=KeyObtained]'
       type: 0
       typeString: 
+  - id: 2
+    fields:
+    - title: Name
+      value: Second quest
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: Collect items around the house that are useful for traveling.
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: State
+      value: unassigned
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: Collect items around the house that are useful for traveling.
+      type: 0
+      typeString: 
   locations: []
   variables:
   - id: 1
@@ -2538,7 +2588,7 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("Second quest") == "unassigned"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -2546,7 +2596,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 169
-        y: 66
+        y: 66.98041
         width: 160
         height: 30
     - id: 7
@@ -3501,7 +3551,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -3566,7 +3616,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -3578,11 +3628,66 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Bilis, Sinag.
         type: 0
         typeString: 
       - title: Sequence
         value: SetActive(Onetime,false)
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 25
+        destinationConversationID: 5
+        destinationDialogueID: 26
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: SetQuestState("Second quest", "active")
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 405.31494
+        y: 561.10956
+        width: 160
+        height: 30
+    - id: 26
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Bilis, Sinag.. Hindi mo pa nalilibot\r ang buong bahay. "
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 5
@@ -3601,12 +3706,12 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 405.31494
-        y: 561.10956
+        y: 611.10956
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 110.16017, y: 159.42442}
-    canvasZoom: 0.9599998
+    canvasScrollPosition: {x: 52.611706, y: 8.843863}
+    canvasZoom: 0.9899998
   - id: 6
     fields:
     - title: Title
