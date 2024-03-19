@@ -2908,7 +2908,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetActive(Katambay,true);
+
+          {{default}}'
         type: 0
         typeString: 
       conversationID: 5
