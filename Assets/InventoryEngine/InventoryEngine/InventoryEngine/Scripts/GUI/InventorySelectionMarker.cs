@@ -38,7 +38,9 @@ namespace MoreMountains.InventoryEngine
 		/// On Update, we get the current selected object, and we move the marker to it if necessary
 		/// </summary>
 		void Update () 
-		{			
+		{
+			if (EventSystem.current == null) return;
+
 			_currentSelection = EventSystem.current.currentSelectedGameObject;
 			if (_currentSelection == null)
 			{

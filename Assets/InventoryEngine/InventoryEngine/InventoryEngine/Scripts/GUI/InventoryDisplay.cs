@@ -682,7 +682,8 @@ namespace MoreMountains.InventoryEngine
 		/// </summary>		
 		public virtual void Focus()		
 		{
-			if (!EnableNavigation)
+            if (EventSystem.current == null) return;
+            if (!EnableNavigation)
 			{
 				return;
 			}
@@ -690,9 +691,10 @@ namespace MoreMountains.InventoryEngine
 			if (SlotContainer.Count > 0)
             {
                 SlotContainer[0].Select();
-            }		
+            }
+			
 
-			if (EventSystem.current.currentSelectedGameObject == null) 		
+            if (EventSystem.current.currentSelectedGameObject == null) 		
 			{	
 				EventSystem.current.SetSelectedGameObject (transform.GetComponentInChildren<InventorySlot> ().gameObject);	
 			}			
@@ -804,6 +806,7 @@ namespace MoreMountains.InventoryEngine
 		/// <param name="inventoryEvent">Inventory event.</param>
 		public virtual void OnMMEvent(MMInventoryEvent inventoryEvent)
 		{
+
 			// if this event doesn't concern our inventory display, we do nothing and exit
 			if (inventoryEvent.TargetInventoryName != this.TargetInventoryName)
 			{

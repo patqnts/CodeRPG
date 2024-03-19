@@ -169,6 +169,10 @@ namespace MoreMountains.InventoryEngine
         /// </summary>
         protected virtual void CheckCurrentlySelectedSlot()
         {
+            if(EventSystem.current == null)
+            {
+                return;
+            }
             _currentSelection = EventSystem.current.currentSelectedGameObject;
             if (_currentSelection == null)
             {
