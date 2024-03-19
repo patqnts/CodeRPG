@@ -9,7 +9,8 @@ public class NPCMovementController : MonoBehaviour
     public Animator animator; // Reference to the animator component
 
     Rigidbody2D rb; // Reference to the Rigidbody2D component
-
+    public GameObject blackscreen;
+    public Transform UITransform;
     private GameObject playerObject;
     [Header("Chapter 1 USE")]
     public Transform targetLocation;
@@ -70,14 +71,26 @@ public class NPCMovementController : MonoBehaviour
 
     IEnumerator Uncarry()
     {
-        yield return new WaitForSeconds(10f);
-        
-        
+        GameObject var = Instantiate(blackscreen, UITransform);
+        yield return new WaitForSeconds(5f);
+
         player = playerObject.transform;
-        playerObject.gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
+        // Detach the player from the NPC
         playerObject.transform.SetParent(null);
+
+        // Optional: Enable physics on the player if it was previously disabled
+        Rigidbody2D playerRb = playerObject.GetComponent<Rigidbody2D>();
+        if (playerRb != null)
+        {
+            playerRb.isKinematic = false;
+            playerObject.transform.position = this.transform.position;
+            Destroy(var);
+        }
+
+        // Send message to signal scene end (assuming you have a method for this)
         PixelCrushers.DialogueSystem.Sequencer.Message("SceneEnd");
     }
+
 
 
 
