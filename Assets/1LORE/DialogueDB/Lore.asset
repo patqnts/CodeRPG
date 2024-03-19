@@ -551,12 +551,6 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 0
         destinationConversationID: 2
-        destinationDialogueID: 2
-        isConnector: 0
-        priority: 2
-      - originConversationID: 2
-        originDialogueID: 0
-        destinationConversationID: 2
         destinationDialogueID: 6
         isConnector: 0
         priority: 2
@@ -566,6 +560,12 @@ MonoBehaviour:
         destinationDialogueID: 10
         isConnector: 0
         priority: 2
+      - originConversationID: 2
+        originDialogueID: 0
+        destinationConversationID: 2
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -573,8 +573,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 285
-        y: 58
+        x: 270.43692
+        y: 31.786407
         width: 160
         height: 30
     - id: 2
@@ -621,7 +621,7 @@ MonoBehaviour:
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Susi") == "unassigned"
+      conditionsString: 
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1059,9 +1059,72 @@ MonoBehaviour:
         y: 88.4433
         width: 160
         height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 'SetDialoguePanel(false);
+
+          required SetDialoguePanel(true)@Message(SceneEnd);
+
+          Continue()@Message(SceneEnd)'
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: eb95c414-b808-4a47-bdc8-24a692a97257
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 11
+        destinationConversationID: 2
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: CurrentQuestState("Susi") == "unassigned"
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 158.78644
+        y: 78.873795
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 140.41731, y: 22.914984}
-    canvasZoom: 1.03
+    canvasScrollPosition: {x: 87.73062, y: 11.328714}
+    canvasZoom: 0.9100001
   - id: 3
     fields:
     - title: Title
@@ -1473,7 +1536,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetDialoguePanel(false);
+
+          required SetDialoguePanel(true)@Message(SceneEnd);
+
+          Continue()@Message(SceneEnd)'
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 9e978b79-1abe-4145-83f5-fb9c0565b749
         type: 0
         typeString: 
       conversationID: 3
