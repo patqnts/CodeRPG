@@ -4441,15 +4441,15 @@ MonoBehaviour:
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
-      conditionsString: Variable["ItemIndex"] == 2
+      conditionsString: Variable["ItemIndex"] == 3
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 596.2987
-        y: 141.80594
+        x: 778.006
+        y: 133.26936
         width: 160
         height: 30
     - id: 5
@@ -4496,15 +4496,15 @@ MonoBehaviour:
         destinationDialogueID: 6
         isConnector: 0
         priority: 2
-      conditionsString: Variable["ItemIndex"] == 3
+      conditionsString: Variable["ItemIndex"] == 2
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 781.29895
-        y: 147.80594
+        x: 597.1527
+        y: 136.83032
         width: 160
         height: 30
     - id: 6
@@ -4559,8 +4559,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 787.29895
-        y: 202.80594
+        x: 595.8356
+        y: 215.00107
         width: 160
         height: 30
     - id: 7
@@ -4620,8 +4620,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 338.94263, y: 38.41843}
-    canvasZoom: 0.85000014
+    canvasScrollPosition: {x: 301.40833, y: 0}
+    canvasZoom: 0.73000026
   syncInfo:
     syncActors: 0
     syncItems: 0
