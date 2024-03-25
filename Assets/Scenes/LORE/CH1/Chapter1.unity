@@ -396,7 +396,7 @@ Transform:
   m_GameObject: {fileID: 37686397}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.36, y: 36.4, z: 0}
+  m_LocalPosition: {x: 0.4, y: -6.8, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -786,7 +786,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.18, y: 3.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.58334017, y: 0.58334017, z: 0.58334017}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 29599782}
@@ -1660,7 +1660,7 @@ Transform:
   m_GameObject: {fileID: 240240151}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4594167, y: 38.15234, z: -10}
+  m_LocalPosition: {x: 0.43261695, y: -3.8779, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23216,7 +23216,7 @@ Transform:
   m_GameObject: {fileID: 1417001204}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.36, y: 36.4, z: -10}
+  m_LocalPosition: {x: 0.4, y: -6.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24748,7 +24748,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1750770738
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24901,9 +24901,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1770544694}
   module1:
-  - {fileID: 32900000, guid: b33bbcd2de4b23144b9e9e3f874f6dd7, type: 3}
-  - {fileID: 32900000, guid: b33bbcd2de4b23144b9e9e3f874f6dd7, type: 3}
-  - {fileID: 32900000, guid: b33bbcd2de4b23144b9e9e3f874f6dd7, type: 3}
+  - {fileID: 32900000, guid: cea87ef100b17e247ab43dc33dec0d5b, type: 3}
+  - {fileID: 32900000, guid: cea87ef100b17e247ab43dc33dec0d5b, type: 3}
+  - {fileID: 32900000, guid: cea87ef100b17e247ab43dc33dec0d5b, type: 3}
   module2: []
   module3: []
   module4: []
@@ -25588,7 +25588,6 @@ GameObject:
   - component: {fileID: 1853170804}
   - component: {fileID: 1853170806}
   - component: {fileID: 1853170805}
-  - component: {fileID: 1853170807}
   m_Layer: 0
   m_Name: Batala
   m_TagString: Untagged
@@ -25839,39 +25838,6 @@ MonoBehaviour:
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
   selectedDatabase: {fileID: 11400000, guid: 2e8d537c1e73a94478f3f615d986156f, type: 2}
---- !u!114 &1853170807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853170799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64578247383140469c45370654a984a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actor: Batala
-  persistentDataName: 
-  portrait: {fileID: 2800000, guid: bf5dd42de58b35b418cb3409a82a5a09, type: 3}
-  spritePortrait: {fileID: 0}
-  barkUISettings:
-    barkUI: {fileID: 0}
-    barkUIOffset: {x: 0, y: 2, z: 0}
-  standardDialogueUISettings:
-    subtitlePanelNumber: 0
-    customSubtitlePanel: {fileID: 0}
-    customSubtitlePanelOffset: {x: 0, y: 0, z: 0}
-    menuPanelNumber: 0
-    customMenuPanel: {fileID: 0}
-    customMenuPanelOffset: {x: 0, y: 0, z: 0}
-    useMenuPanelFor: 0
-    portraitAnimatorController: {fileID: 0}
-    setSubtitleColor: 0
-    applyColorToPrependedName: 0
-    prependActorNameSeparator: ': '
-    prependActorNameFormat: '{0}{1}'
-    subtitleColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1865812905
 GameObject:
   m_ObjectHideFlags: 0
@@ -26978,11 +26944,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8894465081704782514, guid: 823bb61308a2a3640806c364e6b3723a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.02
+      value: -18.63
       objectReference: {fileID: 0}
     - target: {fileID: 8894465081704782514, guid: 823bb61308a2a3640806c364e6b3723a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 60.38
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 8894465081704782514, guid: 823bb61308a2a3640806c364e6b3723a, type: 3}
       propertyPath: m_LocalPosition.z
