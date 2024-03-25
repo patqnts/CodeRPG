@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Asin
   m_EditorClassIdentifier: 
   ItemID: Asin
-  TargetInventoryName: MainInventory
+  TargetInventoryName: RogueMainInventory
   ForceSlotIndex: 0
   TargetIndex: 0
   Usable: 0

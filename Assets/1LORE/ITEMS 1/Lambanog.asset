@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lambanog
   m_EditorClassIdentifier: 
   ItemID: Lambanog
-  TargetInventoryName: MainInventory
+  TargetInventoryName: RogueMainInventory
   ForceSlotIndex: 0
   TargetIndex: 0
   Usable: 0
