@@ -30,7 +30,7 @@ MonoBehaviour:
   Description: "It is commonly derived from tub\xE2 made from coconut sap that has
     been aged for at least 48 hours."
   Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  Prefab: {fileID: 863373810361116315, guid: 11d057f58f9b5f54a88d1a0a93e8156e, type: 3}
   DropProperties:
     Shape: 0
     NormalToSpawnPlane: {x: 0, y: 1, z: 0}
@@ -73,7 +73,7 @@ MonoBehaviour:
     MinimumScale: {x: 1, y: 1, z: 1}
     MaximumScale: {x: 1, y: 1, z: 1}
   MaximumStack: 1
-  ItemClass: 0
+  ItemClass: 4
   TargetEquipmentInventoryName: 
   EquippedSound: {fileID: 0}
   UsedSound: {fileID: 0}
