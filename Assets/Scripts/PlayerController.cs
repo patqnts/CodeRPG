@@ -17,12 +17,23 @@ public class PlayerController : MonoBehaviour
         joystick = FindObjectOfType<FixedJoystick>();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
     }
 
     private void Update()
     {
         movementInput.x = Input.GetAxisRaw("Horizontal");
         movementInput.y = Input.GetAxisRaw("Vertical");
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            SaveInventory();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            LoadInventory();
+        }
     }
 
     private void FixedUpdate()
@@ -63,4 +74,15 @@ public class PlayerController : MonoBehaviour
         // Set velocity to zero when the script is disabled
         rb.velocity = Vector2.zero;
     }
+
+    public void SaveInventory()
+    {
+        MMGameEvent.Trigger("Save");
+    }
+
+    public void LoadInventory()
+    {
+        MMGameEvent.Trigger("Load");
+    }
+
 }
