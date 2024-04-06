@@ -19,7 +19,7 @@ MonoBehaviour:
   Usable: 0
   Consumable: 1
   ConsumeQuantity: 1
-  Equippable: 0
+  Equippable: 1
   MoveWhenEquipped: 1
   Droppable: 1
   CanMoveObject: 1
@@ -27,7 +27,7 @@ MonoBehaviour:
   Quantity: 1
   ItemName: Makuring Lason
   ShortDescription: 
-  Description: 
+  Description: "Likidong pangunahing\r sangkap sa pagbuo ng gayuma"
   Icon: {fileID: 21300160, guid: 31e24ed712cbf3b4595a8dbc9b18aa9c, type: 3}
   Prefab: {fileID: 0}
   DropProperties:
@@ -73,7 +73,7 @@ MonoBehaviour:
     MaximumScale: {x: 1, y: 1, z: 1}
   MaximumStack: 4
   ItemClass: 2
-  TargetEquipmentInventoryName: 
+  TargetEquipmentInventoryName: RogueWeaponInventory
   EquippedSound: {fileID: 0}
   UsedSound: {fileID: 0}
   MovedSound: {fileID: 0}

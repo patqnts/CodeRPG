@@ -1,4 +1,6 @@
+using MoreMountains.InventoryEngine;
 using MoreMountains.Tools;
+using PixelCrushers.DialogueSystem;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +13,6 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     public CircleCollider2D circleCollider;
     private Rigidbody2D rb;
-
     private void Start()
     {
         joystick = FindObjectOfType<FixedJoystick>();
@@ -69,12 +70,6 @@ public class PlayerController : MonoBehaviour
         circleCollider.enabled = false;
     }
 
-    private void OnDisable()
-    {
-        // Set velocity to zero when the script is disabled
-        rb.velocity = Vector2.zero;
-    }
-
     public void SaveInventory()
     {
         MMGameEvent.Trigger("Save");
@@ -83,6 +78,11 @@ public class PlayerController : MonoBehaviour
     public void LoadInventory()
     {
         MMGameEvent.Trigger("Load");
+    }
+
+    void OnDisable()
+    {
+        rb.velocity = Vector2.zero;
     }
 
 }
