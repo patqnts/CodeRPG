@@ -13,18 +13,12 @@ MonoBehaviour:
   m_Name: Craft
   m_EditorClassIdentifier: 
   Recipes:
-  - Name: Axe
-    Item: {fileID: 11400000, guid: af2c14f3bde655947aca0d6a7b8dbeb8, type: 2}
+  - Name: Makuring Lason
+    Item: {fileID: 11400000, guid: 59d1f88d9c1a6ba49bba4ac6d1d38beb, type: 2}
     Quantity: 1
     Ingredients:
-    - Name: 2 Apples
-      Item: {fileID: 11400000, guid: 40876a02f1980694e94d7190565ee90c, type: 2}
-      Quantity: 2
-    - Name: Coin
-      Item: {fileID: 11400000, guid: 2c96dc824a5c07d499919dd781334700, type: 2}
-      Quantity: 1
-    - Name: Sword
-      Item: {fileID: 11400000, guid: 2c6c3c9fc82f7484ab8b3ee19e0a0cad, type: 2}
+    - Name: Asin
+      Item: {fileID: 11400000, guid: 9155ac5e77fcecb479456f6bfceb1272, type: 2}
       Quantity: 1
   - Name: Minigun
     Item: {fileID: 11400000, guid: 23f15b9bad261b545acbe8659a1d279a, type: 2}

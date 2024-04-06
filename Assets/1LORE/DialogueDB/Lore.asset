@@ -176,7 +176,7 @@ MonoBehaviour:
     - title: Name
       value: Susi
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Pictures
       value: '[]'
       type: 3
@@ -184,19 +184,19 @@ MonoBehaviour:
     - title: Description
       value: Tulungan si Lola hanapin ang susi.
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Success Description
       value: Nahanap ko na ang susi.
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Failure Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: State
       value: unassigned
       type: 0
-      typeString: 
+      typeString: CustomFieldType_QuestState
     - title: Is Item
       value: False
       type: 2
@@ -204,7 +204,7 @@ MonoBehaviour:
     - title: Display Name
       value: Hanapin ang susi.
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Trackable
       value: True
       type: 2
@@ -220,11 +220,11 @@ MonoBehaviour:
     - title: Entry 1 State
       value: active
       type: 0
-      typeString: 
+      typeString: CustomFieldType_QuestState
     - title: Entry 1
       value: 'Status: [var=KeyObtained]'
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
   - id: 2
     fields:
     - title: Name
@@ -369,6 +369,80 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
+  - id: 8
+    fields:
+    - title: Name
+      value: Defeat Boggos
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: Craft a potion to fight Boggos.
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Success Description
+      value: Natalo mo ko ang Boggos
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: State
+      value: unassigned
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 3
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Entry 1
+      value: '- Likidong pangunahing sangkap sa pagbuo ng gayuma.'
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Entry 2 State
+      value: active
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Entry 2
+      value: '- Ito ay kontra sa mga aswang.'
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Entry 3 State
+      value: active
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Entry 3
+      value: '- Kaya nitong kontrolin ang lakas ng mga masasamang elemento.'
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Track
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Display Name
+      value: Craft a potion to fight Boggos.
+      type: 0
+      typeString: CustomFieldType_Text
   locations: []
   variables:
   - id: 1
@@ -4862,7 +4936,66 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: '{{default}};
+
+          CinemachineTarget(Virtual Camera, Bonggo,follow)'
+        type: 0
+        typeString: 
+      conversationID: 8
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 8
+        originDialogueID: 3
+        destinationConversationID: 8
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 160
+        y: 180
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
         value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: '{{default}};
+
+          CinemachineTarget(Virtual Camera, Player,follow)'
         type: 0
         typeString: 
       conversationID: 8
@@ -4874,14 +5007,14 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: SetQuestState("Defeat Boggos", "active")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 160
-        y: 180
+        y: 230
         width: 160
         height: 30
     entryGroups: []
@@ -5067,7 +5200,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Ang mga bonggos ay\r kampon ni Asuang na nagliliyab\r mga mata. Lahat
+        value: "Ang mga boggos ay\r kampon ni Asuang na nagliliyab\r mga mata. Lahat
           ng matapat sa\r paningin nila ay masusunog."
         type: 0
         typeString: 
