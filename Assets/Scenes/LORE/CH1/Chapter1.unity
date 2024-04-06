@@ -10324,6 +10324,10 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - guid: 9b96ccb1-7639-4119-a706-e67710cfbe12
+    onExecute:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!4 &783391755
 Transform:
   m_ObjectHideFlags: 0

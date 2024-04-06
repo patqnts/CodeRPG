@@ -395,6 +395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponCheck: {fileID: 0}
+  animator: {fileID: 19413092}
 --- !u!1 &76962513
 GameObject:
   m_ObjectHideFlags: 0

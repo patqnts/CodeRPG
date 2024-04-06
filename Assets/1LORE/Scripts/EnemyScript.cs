@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class EnemyScript : MonoBehaviour
 {
     public InventoryWeaponCheck weaponCheck;
+    public Animator animator;
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -24,5 +25,10 @@ public class EnemyScript : MonoBehaviour
     public void DoMethod(string weaponID)
     {
         weaponCheck.IsWeaponEquipped(weaponID);
+    }
+
+    public void Death()
+    {
+        animator.Play("Death");
     }
 }
