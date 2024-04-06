@@ -4802,7 +4802,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Maaari mong sanayin ang iyong\r sarili sa pamamagitan ng pag"
+        value: "Maaari mong sanayin ang iyong\r sarili sa pamamagitan ng pag laban
+          sa kampon ni Asuang."
         type: 0
         typeString: 
       - title: Sequence
