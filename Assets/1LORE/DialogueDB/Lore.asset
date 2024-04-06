@@ -5608,9 +5608,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: '{{default}};
-
-          CinemachineTarget(Virtual Camera, Player,follow)'
+        value: 
         type: 0
         typeString: 
       - title: EventGuid
@@ -5624,7 +5622,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 9
+        destinationConversationID: 10
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5632,8 +5636,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 276.86844
-        y: 380.28787
+        x: 277.6949
+        y: 381.11432
         width: 160
         height: 30
     entryGroups: []
@@ -6156,7 +6160,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: '{{default}};
+
+          CinemachineTarget(Virtual Camera, Player,follow);'
         type: 0
         typeString: 
       conversationID: 10

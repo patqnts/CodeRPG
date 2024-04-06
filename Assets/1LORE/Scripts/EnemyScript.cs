@@ -31,4 +31,13 @@ public class EnemyScript : MonoBehaviour
     {
         animator.Play("Death");
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            animator.Play("Attack");
+        }
+        
+    }
 }
