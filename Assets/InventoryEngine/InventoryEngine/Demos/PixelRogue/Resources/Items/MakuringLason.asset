@@ -26,7 +26,7 @@ MonoBehaviour:
   CanSwapObject: 1
   Quantity: 1
   ItemName: Makuring Lason
-  ShortDescription: 
+  ShortDescription: "Likidong pangunahing\r sangkap sa pagbuo ng gayuma"
   Description: "Likidong pangunahing\r sangkap sa pagbuo ng gayuma"
   Icon: {fileID: 21300160, guid: 31e24ed712cbf3b4595a8dbc9b18aa9c, type: 3}
   Prefab: {fileID: 0}

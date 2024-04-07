@@ -29,7 +29,7 @@ MonoBehaviour:
   ShortDescription: 
   Description: "It is commonly derived from tub\xE2 made from coconut sap that has
     been aged for at least 48 hours."
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: f825d9082818d3c4198fabf8c9ec9d0d, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 11d057f58f9b5f54a88d1a0a93e8156e, type: 3}
   DropProperties:
     Shape: 0
