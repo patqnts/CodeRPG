@@ -450,10 +450,10 @@ namespace MoreMountains.InventoryEngine
             {
                 CurrentlySelectedInventorySlot.Equip();
             }
-            if (CurrentlySelectedInventorySlot.Usable())
-            {
-                CurrentlySelectedInventorySlot.Use();
-            }
+            //if (CurrentlySelectedInventorySlot.Usable())
+            //{
+            //    CurrentlySelectedInventorySlot.Use();
+            //}
         }
 
         public virtual void Equip()

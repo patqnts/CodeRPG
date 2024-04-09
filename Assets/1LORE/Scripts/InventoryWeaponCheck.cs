@@ -7,6 +7,7 @@ using UnityEngine;
 public class InventoryWeaponCheck : MonoBehaviour
 {
     public Inventory weaponInventory;
+    public PlayerController playerController;
     void OnEnable()
     {
         Lua.RegisterFunction("IsWeaponEquipped_" + name, this, SymbolExtensions.GetMethodInfo(() => IsWeaponEquipped(name)));
@@ -32,4 +33,20 @@ public class InventoryWeaponCheck : MonoBehaviour
         DialogueLua.SetVariable("IsWeaponEquipped", false);
         return false;
     }
+
+    public void UseItemForDialogue(string weaponID)
+    {
+        List<int> myList = weaponInventory.InventoryContains(weaponID);
+
+        if (myList.Count > 0)
+        {
+            MMInventoryEvent.Trigger(MMInventoryEventType.UseRequest, null, "RogueWeaponInventory", weaponInventory.Content[myList[0]], 1, 0, "Player1");
+            Debug.Log(weaponInventory.PlayerID);
+
+            playerController.SaveInventory();
+            playerController.LoadInventory();
+        }
+    }
+
+  
 }

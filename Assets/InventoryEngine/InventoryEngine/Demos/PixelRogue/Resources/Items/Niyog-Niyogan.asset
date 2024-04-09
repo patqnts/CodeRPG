@@ -9,28 +9,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4829572fcd2f98479c803ffaf809268, type: 3}
-  m_Name: Sword
+  m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
+  m_Name: Niyog-Niyogan
   m_EditorClassIdentifier: 
-  ItemID: Sword
+  ItemID: Niyog-Niyogan
   TargetInventoryName: RogueMainInventory
+  ForceSlotIndex: 0
+  TargetIndex: 0
   Usable: 0
   Consumable: 1
   ConsumeQuantity: 1
   Equippable: 1
-  Droppable: 0
+  MoveWhenEquipped: 1
+  Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
   Quantity: 1
-  ItemName: Sword
-  ShortDescription: A sharp sword
-  Description: With its long blade and refined hilt, this sword can be used to cut
-    cakes and stuff.
-  Icon: {fileID: 21300006, guid: a1fbd1aaf76d0b94e88551b7c406ee2c, type: 3}
-  Prefab: {fileID: 170916, guid: 8e3b87501a6ef0246a7a5e8e2dc5e4f9, type: 3}
+  ItemName: Niyog-Niyogan
+  ShortDescription: Niyog-Niyogan
+  Description: Niyog-Niyogan
+  Icon: {fileID: 21300000, guid: f9384a75cb564c74b933cc8c0c6c5eb3, type: 3}
+  Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:
     Shape: 0
-    NormalToSpawnPlane: {x: 0, y: 0, z: 1}
+    NormalToSpawnPlane: {x: 0, y: 1, z: 0}
     MinimumSphereRadius: 1
     MaximumSphereRadius: 2
     MinimumCubeBaseSize: {x: 1, y: 1, z: 1}
@@ -69,12 +71,11 @@ MonoBehaviour:
     MaximumRotation: {x: 0, y: 0, z: 0}
     MinimumScale: {x: 1, y: 1, z: 1}
     MaximumScale: {x: 1, y: 1, z: 1}
-  MaximumStack: 1
-  ItemClass: 2
-  TargetEquipmentInventoryName: RogueWeaponInventory
+  MaximumStack: 5
+  ItemClass: 0
+  TargetEquipmentInventoryName: RogueMainInventory
   EquippedSound: {fileID: 0}
   UsedSound: {fileID: 0}
   MovedSound: {fileID: 0}
   DroppedSound: {fileID: 0}
   UseDefaultSoundsIfNull: 1
-  WeaponSprite: {fileID: 21300008, guid: 678058abcbfe36f42902c11d9e5f64fc, type: 3}

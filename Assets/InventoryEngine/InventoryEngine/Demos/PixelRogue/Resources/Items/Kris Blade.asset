@@ -10,24 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
-  m_Name: Coin
+  m_Name: Kris Blade
   m_EditorClassIdentifier: 
-  ItemID: Coin
+  ItemID: KrisBlade
   TargetInventoryName: RogueMainInventory
+  ForceSlotIndex: 0
+  TargetIndex: 0
   Usable: 0
-  Equippable: 0
-  Quantity: 1
-  ItemName: Coin
-  ShortDescription: A valuable piece of money
-  Description: A coin is a small, flat, round piece of hard material such as metal
-    or plastic used primarily as a medium of exchange or legal tender.
+  Consumable: 1
+  ConsumeQuantity: 1
+  Equippable: 1
+  MoveWhenEquipped: 1
+  Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
-  Icon: {fileID: 21300004, guid: a1fbd1aaf76d0b94e88551b7c406ee2c, type: 3}
-  Prefab: {fileID: 173960, guid: 34ef20a1c78365e4d90691ae5ce029a8, type: 3}
+  Quantity: 1
+  ItemName: Kris Blade
+  ShortDescription: Kris Blade
+  Description: Kris Blade
+  Icon: {fileID: 21300000, guid: 4a0aa089aee136346ad9ff5da6ba52c3, type: 3}
+  Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:
     Shape: 0
-    NormalToSpawnPlane: {x: 0, y: 0, z: 1}
+    NormalToSpawnPlane: {x: 0, y: 1, z: 0}
     MinimumSphereRadius: 1
     MaximumSphereRadius: 2
     MinimumCubeBaseSize: {x: 1, y: 1, z: 1}
@@ -66,9 +71,9 @@ MonoBehaviour:
     MaximumRotation: {x: 0, y: 0, z: 0}
     MinimumScale: {x: 1, y: 1, z: 1}
     MaximumScale: {x: 1, y: 1, z: 1}
-  MaximumStack: 25
+  MaximumStack: 5
   ItemClass: 0
-  TargetEquipmentInventoryName: 
+  TargetEquipmentInventoryName: RogueMainInventory
   EquippedSound: {fileID: 0}
   UsedSound: {fileID: 0}
   MovedSound: {fileID: 0}

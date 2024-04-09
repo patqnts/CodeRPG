@@ -9,31 +9,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4829572fcd2f98479c803ffaf809268, type: 3}
-  m_Name: Rifle
+  m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
+  m_Name: Akapulko
   m_EditorClassIdentifier: 
-  ItemID: Rifle
-  TargetInventoryName: RogueWeaponBarInventory
-  ForceSlotIndex: 1
-  TargetIndex: 2
+  ItemID: Akapulko
+  TargetInventoryName: RogueMainInventory
+  ForceSlotIndex: 0
+  TargetIndex: 0
   Usable: 0
   Consumable: 1
   ConsumeQuantity: 1
   Equippable: 1
-  MoveWhenEquipped: 0
-  Droppable: 0
+  MoveWhenEquipped: 1
+  Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
   Quantity: 1
-  ItemName: Rifle
-  ShortDescription: Make sure you check the safety instructions
-  Description: A selective fire rifle that uses an intermediate cartridge and a detachable
-    magazine.
-  Icon: {fileID: 184950751378207249, guid: a1fbd1aaf76d0b94e88551b7c406ee2c, type: 3}
-  Prefab: {fileID: 1324242832439339449, guid: 11d35e4d501d61847816407653283e26, type: 3}
+  ItemName: Akapulko
+  ShortDescription: 
+  Description: Akapulko
+  Icon: {fileID: 21300000, guid: a3f266d64ad5d244d9499ba7d921327c, type: 3}
+  Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:
     Shape: 0
-    NormalToSpawnPlane: {x: 0, y: 0, z: 1}
+    NormalToSpawnPlane: {x: 0, y: 1, z: 0}
     MinimumSphereRadius: 1
     MaximumSphereRadius: 2
     MinimumCubeBaseSize: {x: 1, y: 1, z: 1}
@@ -72,13 +71,11 @@ MonoBehaviour:
     MaximumRotation: {x: 0, y: 0, z: 0}
     MinimumScale: {x: 1, y: 1, z: 1}
     MaximumScale: {x: 1, y: 1, z: 1}
-  MaximumStack: 1
-  ItemClass: 2
-  TargetEquipmentInventoryName: RogueWeaponInventory
+  MaximumStack: 5
+  ItemClass: 0
+  TargetEquipmentInventoryName: RogueMainInventory
   EquippedSound: {fileID: 0}
   UsedSound: {fileID: 0}
   MovedSound: {fileID: 0}
   DroppedSound: {fileID: 0}
   UseDefaultSoundsIfNull: 1
-  WeaponSprite: {fileID: 7694205521886297151, guid: 678058abcbfe36f42902c11d9e5f64fc,
-    type: 3}

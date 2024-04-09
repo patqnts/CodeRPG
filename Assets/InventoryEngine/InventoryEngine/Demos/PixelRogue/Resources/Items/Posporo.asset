@@ -9,25 +9,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d950f167cc755b943ac753e0fa223c59, type: 3}
-  m_Name: Bomb
+  m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
+  m_Name: Posporo
   m_EditorClassIdentifier: 
-  ItemID: Bomb
-  TargetInventoryName: RogueBombInventory
-  Usable: 1
-  Equippable: 0
-  Quantity: 1
-  ItemName: Bomb
-  ShortDescription: Handle with care
-  Description: You can use this bomb to blow stuff up. You can make people explode,
-    walls explode, horses explode, peanut butter explode. Be careful though.
+  ItemID: Posporo
+  TargetInventoryName: RogueMainInventory
+  ForceSlotIndex: 0
+  TargetIndex: 0
+  Usable: 0
+  Consumable: 1
+  ConsumeQuantity: 1
+  Equippable: 1
+  MoveWhenEquipped: 1
+  Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
-  Icon: {fileID: 21300002, guid: a1fbd1aaf76d0b94e88551b7c406ee2c, type: 3}
-  Prefab: {fileID: 118076, guid: 08c4c98e1efab2c469628f8660223920, type: 3}
+  Quantity: 1
+  ItemName: Posporo
+  ShortDescription: Posporo
+  Description: Posporo
+  Icon: {fileID: 21300000, guid: b2a57da2ede9c464d934a67b700ebf69, type: 3}
+  Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:
     Shape: 0
-    NormalToSpawnPlane: {x: 0, y: 0, z: 1}
+    NormalToSpawnPlane: {x: 0, y: 1, z: 0}
     MinimumSphereRadius: 1
     MaximumSphereRadius: 2
     MinimumCubeBaseSize: {x: 1, y: 1, z: 1}
@@ -68,7 +73,7 @@ MonoBehaviour:
     MaximumScale: {x: 1, y: 1, z: 1}
   MaximumStack: 5
   ItemClass: 0
-  TargetEquipmentInventoryName: Hotbar
+  TargetEquipmentInventoryName: RogueMainInventory
   EquippedSound: {fileID: 0}
   UsedSound: {fileID: 0}
   MovedSound: {fileID: 0}

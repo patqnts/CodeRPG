@@ -9,30 +9,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4829572fcd2f98479c803ffaf809268, type: 3}
-  m_Name: Minigun
+  m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
+  m_Name: Book
   m_EditorClassIdentifier: 
-  ItemID: Minigun
-  TargetInventoryName: RogueWeaponBarInventory
-  ForceSlotIndex: 1
-  TargetIndex: 3
+  ItemID: Book
+  TargetInventoryName: RogueMainInventory
+  ForceSlotIndex: 0
+  TargetIndex: 0
   Usable: 0
   Consumable: 1
   ConsumeQuantity: 1
   Equippable: 1
-  MoveWhenEquipped: 0
-  Droppable: 0
+  MoveWhenEquipped: 1
+  Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
   Quantity: 1
-  ItemName: Minigun
-  ShortDescription: Eight barrels of fun
-  Description: Shoots high-velocity rounds at an incredible speed
-  Icon: {fileID: 1202984965197363600, guid: a1fbd1aaf76d0b94e88551b7c406ee2c, type: 3}
-  Prefab: {fileID: 1179928876409658586, guid: f6a811d401907a94a8f74cd42bc185c2, type: 3}
+  ItemName: Book
+  ShortDescription: Book
+  Description: Book
+  Icon: {fileID: 21300000, guid: e93f78fac2f222c41a1356a1a1965f1c, type: 3}
+  Prefab: {fileID: 863373810361116315, guid: 22f82fd75052eb14b89bde6d869c311f, type: 3}
   DropProperties:
     Shape: 0
-    NormalToSpawnPlane: {x: 0, y: 0, z: 1}
+    NormalToSpawnPlane: {x: 0, y: 1, z: 0}
     MinimumSphereRadius: 1
     MaximumSphereRadius: 2
     MinimumCubeBaseSize: {x: 1, y: 1, z: 1}
@@ -71,13 +71,11 @@ MonoBehaviour:
     MaximumRotation: {x: 0, y: 0, z: 0}
     MinimumScale: {x: 1, y: 1, z: 1}
     MaximumScale: {x: 1, y: 1, z: 1}
-  MaximumStack: 1
-  ItemClass: 2
-  TargetEquipmentInventoryName: RogueWeaponInventory
+  MaximumStack: 5
+  ItemClass: 0
+  TargetEquipmentInventoryName: RogueMainInventory
   EquippedSound: {fileID: 0}
   UsedSound: {fileID: 0}
   MovedSound: {fileID: 0}
   DroppedSound: {fileID: 0}
   UseDefaultSoundsIfNull: 1
-  WeaponSprite: {fileID: -6256563695458652631, guid: 678058abcbfe36f42902c11d9e5f64fc,
-    type: 3}
