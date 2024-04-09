@@ -28,7 +28,7 @@ MonoBehaviour:
       Quantity: 2
   - Name: 3 Ginhawa Potions
     Item: {fileID: 11400000, guid: 9268a33d0219c954ab830a3b0b2a9dba, type: 2}
-    Quantity: 3
+    Quantity: 1
     Ingredients:
     - Name: 2 Tubigs
       Item: {fileID: 11400000, guid: 2a732e832665fbc4198fe067a76f3e73, type: 2}
