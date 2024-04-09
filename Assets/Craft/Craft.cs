@@ -6,15 +6,14 @@ using UnityEngine;
 namespace Craft
 {
     [Serializable]
-    public class Ingredient : ISerializationCallbackReceiver
+    public class Ingredient 
     {
         [HideInInspector]
         public string Name;
         public InventoryItem Item;
         public int Quantity;
 
-        public void OnBeforeSerialize() { Name = ToString(); }
-        public void OnAfterDeserialize() { Name = ToString(); }
+      
         public override string ToString() { return (Quantity == 1 ? "" : Quantity + " ") + (Item == null ? "null" : Item.ItemName) + (Quantity > 1 ? "s" : ""); }
     }
 

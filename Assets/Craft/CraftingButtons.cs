@@ -24,7 +24,7 @@ namespace Craft
             {
                 var craftingButton = Instantiate(_craftingButton, transform);
                 craftingButton.transform.GetChild(0).GetComponent<Text>().text = recipe.Name;
-                craftingButton.transform.GetChild(1).GetComponent<Text>().text = recipe.Item.ShortDescription;
+                //craftingButton.transform.GetChild(1).GetComponent<Text>().text = recipe.Item.ShortDescription;
                 craftingButton.transform.GetChild(2).GetComponent<Image>().sprite = recipe.Item.Icon;
                 craftingButton.transform.GetChild(3).GetComponent<Text>().text = recipe.IngredientsText;
                 craftingButton.GetComponent<Button>().onClick.AddListener(()=>CraftingInventory.Craft(recipe));

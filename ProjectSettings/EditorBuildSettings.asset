@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/LORE/CH1/Chapter1.unity
     guid: 6232d42ac1d85f34192ecefff2b45097
   - enabled: 1
-    path: Assets/Scenes/LORE/CH2/Chapter2.unity
-    guid: cb937c22230a3a04fab29507d0c8c2e6
+    path: Assets/Craft/CraftDemo.unity
+    guid: d6d926ad9d84d0a449e619a138be8200
   m_configObjects: {}
