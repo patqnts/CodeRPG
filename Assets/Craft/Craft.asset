@@ -17,26 +17,61 @@ MonoBehaviour:
     Item: {fileID: 11400000, guid: 59d1f88d9c1a6ba49bba4ac6d1d38beb, type: 2}
     Quantity: 1
     Ingredients:
-    - Name: Asin
-      Item: {fileID: 11400000, guid: 9155ac5e77fcecb479456f6bfceb1272, type: 2}
+    - Name: Tsaang-Gubat
+      Item: {fileID: 11400000, guid: 140db523aa6e1c345992d7918084c3b6, type: 2}
       Quantity: 1
-  - Name: Minigun
-    Item: {fileID: 11400000, guid: 23f15b9bad261b545acbe8659a1d279a, type: 2}
-    Quantity: 1
-    Ingredients:
-    - Name: Blue Armor
-      Item: {fileID: 11400000, guid: c58f83dbd7ec992468a567ad0968326e, type: 2}
-      Quantity: 1
-    - Name: Green Armor
-      Item: {fileID: 11400000, guid: 0e9c3056cd0243f40bce0e8e2636b8ce, type: 2}
-      Quantity: 1
-    - Name: 3 Coins
-      Item: {fileID: 11400000, guid: 2c96dc824a5c07d499919dd781334700, type: 2}
+    - Name: 3 Bawangs
+      Item: {fileID: 11400000, guid: 900c9bbe4dfc4ba4c834b66dbea06ad0, type: 2}
       Quantity: 3
-  - Name: 2 Bombs
-    Item: {fileID: 11400000, guid: 73d7843da02c41646b5d0e016d55d908, type: 2}
+    - Name: 2 Ulasimang Batos
+      Item: {fileID: 11400000, guid: 3cc220ee1b3ca0443bfacb4787ac7ac8, type: 2}
+      Quantity: 2
+  - Name: 3 Ginhawa Potions
+    Item: {fileID: 11400000, guid: 9268a33d0219c954ab830a3b0b2a9dba, type: 2}
+    Quantity: 3
+    Ingredients:
+    - Name: 2 Tubigs
+      Item: {fileID: 11400000, guid: 2a732e832665fbc4198fe067a76f3e73, type: 2}
+      Quantity: 2
+    - Name: Ampalaya
+      Item: {fileID: 11400000, guid: 4e8085984d7bf244c8f9e93580c41961, type: 2}
+      Quantity: 1
+  - Name: 2 Bangungot Likidos
+    Item: {fileID: 11400000, guid: a7bc538dc0a0bde4fbd8a0c0baafe121, type: 2}
     Quantity: 2
     Ingredients:
-    - Name: 4 Apples
-      Item: {fileID: 11400000, guid: 40876a02f1980694e94d7190565ee90c, type: 2}
-      Quantity: 4
+    - Name: 2 Bawangs
+      Item: {fileID: 11400000, guid: 900c9bbe4dfc4ba4c834b66dbea06ad0, type: 2}
+      Quantity: 2
+    - Name: 3 Ampalayas
+      Item: {fileID: 11400000, guid: 4e8085984d7bf244c8f9e93580c41961, type: 2}
+      Quantity: 3
+    - Name: Lagundi
+      Item: {fileID: 11400000, guid: 042e5368f462ff74a9b3b7df2b37052f, type: 2}
+      Quantity: 1
+  - Name: 3 Anti-ramo Potions
+    Item: {fileID: 11400000, guid: 472f946a2be42aa49b9b37e14e187eb4, type: 2}
+    Quantity: 3
+    Ingredients:
+    - Name: 3 Tsaang-Gubats
+      Item: {fileID: 11400000, guid: 140db523aa6e1c345992d7918084c3b6, type: 2}
+      Quantity: 3
+    - Name: 2 Sambongs
+      Item: {fileID: 11400000, guid: 5a8802995400eaa4b878524f66c17c5b, type: 2}
+      Quantity: 2
+    - Name: Bayabas
+      Item: {fileID: 11400000, guid: d02a1bc660797684a87cfc0b515c0ff9, type: 2}
+      Quantity: 1
+  - Name: 3 Kontrahas Potions
+    Item: {fileID: 11400000, guid: 0e5ec28aada357a4ba33292da8430084, type: 2}
+    Quantity: 3
+    Ingredients:
+    - Name: 3 Tsaang-Gubats
+      Item: {fileID: 11400000, guid: 140db523aa6e1c345992d7918084c3b6, type: 2}
+      Quantity: 3
+    - Name: 2 Ulasimang Batos
+      Item: {fileID: 11400000, guid: 3cc220ee1b3ca0443bfacb4787ac7ac8, type: 2}
+      Quantity: 2
+    - Name: Akapulko
+      Item: {fileID: 11400000, guid: eabfba057b50c5343bac278296aa069a, type: 2}
+      Quantity: 1

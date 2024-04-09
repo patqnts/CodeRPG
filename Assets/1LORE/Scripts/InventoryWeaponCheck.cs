@@ -7,6 +7,7 @@ using UnityEngine;
 public class InventoryWeaponCheck : MonoBehaviour
 {
     public Inventory weaponInventory;
+    public Inventory mainInventory;
     public PlayerController playerController;
     void OnEnable()
     {
@@ -17,6 +18,28 @@ public class InventoryWeaponCheck : MonoBehaviour
     {
         Lua.UnregisterFunction("IsWeaponEquipped");
     }
+
+    public void InputNameForItem(string itemID)
+    {
+        IsItemExisting(itemID);
+    }
+    public bool IsItemExisting(string itemID)
+    {
+        List<int> myList = mainInventory.InventoryContains(itemID);
+
+        if (myList.Count > 0)
+        {
+            Debug.Log("EXISTS");
+            DialogueLua.SetVariable($"Is{itemID}Exists", true);
+            return true;
+
+        }
+
+        Debug.Log("NOT EXISTS");
+        DialogueLua.SetVariable($"Is{itemID}Exists", false);
+        return false;
+    }
+
     public bool IsWeaponEquipped(string weaponID)
     {
 
@@ -42,6 +65,19 @@ public class InventoryWeaponCheck : MonoBehaviour
         {
             MMInventoryEvent.Trigger(MMInventoryEventType.UseRequest, null, "RogueWeaponInventory", weaponInventory.Content[myList[0]], 1, 0, "Player1");
             Debug.Log(weaponInventory.PlayerID);
+
+            playerController.SaveInventory();
+            playerController.LoadInventory();
+        }
+    }
+
+    public void UseMainItemForDialogue(string itemID)
+    {
+        List<int> myList = mainInventory.InventoryContains(itemID);
+
+        if (myList.Count > 0)
+        {
+            MMInventoryEvent.Trigger(MMInventoryEventType.UseRequest, null, "RogueMainInventory", mainInventory.Content[myList[0]], 1, 0, "Player1");
 
             playerController.SaveInventory();
             playerController.LoadInventory();
