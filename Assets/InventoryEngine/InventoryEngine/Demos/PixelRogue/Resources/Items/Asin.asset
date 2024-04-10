@@ -24,7 +24,7 @@ MonoBehaviour:
   Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
-  Quantity: 1
+  Quantity: 0
   ItemName: Asin
   ShortDescription: 
   Description: Substansya na karamihan ay binubuo ng kemikal na sodium chloride,
@@ -72,7 +72,7 @@ MonoBehaviour:
     MaximumRotation: {x: 0, y: 0, z: 0}
     MinimumScale: {x: 1, y: 1, z: 1}
     MaximumScale: {x: 1, y: 1, z: 1}
-  MaximumStack: 4
+  MaximumStack: 20
   ItemClass: 0
   TargetEquipmentInventoryName: RogueWeaponInventory
   EquippedSound: {fileID: 0}
