@@ -88,10 +88,27 @@ public class NPCMovementController : MonoBehaviour
         PixelCrushers.DialogueSystem.Sequencer.Message("SceneEnd");
     }
 
+    IEnumerator DelayEndScene()
+    {
+        yield return new WaitForSeconds(3f);
+        PixelCrushers.DialogueSystem.Sequencer.Message("SceneEnd");
+    }
 
 
+    public void SceneEndMethod()
+    {
+        StartCoroutine(DelayEndScene());
+    }
 
+    public void FindPlayer()
+    {
+        player = FindObjectOfType<PlayerController>().transform;
+    }
 
+    public void ResetFinder()
+    {
+        player = playerObject.transform;
+    }
     void SetAnimation(Vector2 direction)
     {
         if (animator != null)

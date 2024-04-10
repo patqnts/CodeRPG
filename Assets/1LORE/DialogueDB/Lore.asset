@@ -571,6 +571,34 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: 
+  - id: 10
+    fields:
+    - title: Name
+      value: 2NPCDone
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 11
+    fields:
+    - title: Name
+      value: 3NPCDone
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 1
     fields:
@@ -3877,7 +3905,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 405.31494
-        y: 511.10956
+        y: 510.1292
         width: 160
         height: 30
     - id: 25
@@ -3985,8 +4013,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 52.611706, y: 8.843863}
-    canvasZoom: 0.9899998
+    canvasScrollPosition: {x: 160.05374, y: 198.97983}
+    canvasZoom: 1.0199997
   - id: 6
     fields:
     - title: Title
@@ -9202,7 +9230,7 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["3NPCDone"] == false
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -9430,7 +9458,7 @@ MonoBehaviour:
       - originConversationID: 18
         originDialogueID: 5
         destinationConversationID: 18
-        destinationDialogueID: 6
+        destinationDialogueID: 16
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9808,6 +9836,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: af4cd7aa-d55b-4af9-bace-8b761c161633
+        type: 0
+        typeString: 
       conversationID: 18
       isRoot: 0
       isGroup: 0
@@ -9870,16 +9902,22 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 18
+        originDialogueID: 13
+        destinationConversationID: 18
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["3NPCDone"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 161
-        y: 680
+        y: 678.6842
         width: 160
         height: 30
     - id: 14
@@ -9926,14 +9964,14 @@ MonoBehaviour:
         destinationDialogueID: 15
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["3NPCDone"] == true
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 400.77673
+        x: 401.84058
         y: 75.14563
         width: 160
         height: 30
@@ -9967,6 +10005,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 0a660541-afa4-4a54-9b09-981911bae227
+        type: 0
+        typeString: 
       conversationID: 18
       isRoot: 0
       isGroup: 0
@@ -9986,9 +10028,72 @@ MonoBehaviour:
         y: 125.14563
         width: 160
         height: 30
+    - id: 16
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 'SetDialoguePanel(false);
+
+          required SetDialoguePanel(true)@Message(SceneEnd);
+
+          Continue()@Message(SceneEnd);'
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 66f44df1-9d5f-482f-b6ae-3d10ea288d9d
+        type: 0
+        typeString: 
+      conversationID: 18
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 18
+        originDialogueID: 16
+        destinationConversationID: 18
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 360.82648
+        y: 308.5124
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 5.8252563, y: 0}
-    canvasZoom: 1.03
+    canvasScrollPosition: {x: 22.16674, y: 0}
+    canvasZoom: 0.8200002
   - id: 19
     fields:
     - title: Title
