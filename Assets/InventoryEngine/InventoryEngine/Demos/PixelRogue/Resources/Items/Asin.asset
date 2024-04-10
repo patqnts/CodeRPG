@@ -19,7 +19,7 @@ MonoBehaviour:
   Usable: 1
   Consumable: 1
   ConsumeQuantity: 1
-  Equippable: 0
+  Equippable: 1
   MoveWhenEquipped: 1
   Droppable: 1
   CanMoveObject: 1
