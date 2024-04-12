@@ -17,14 +17,14 @@ MonoBehaviour:
   ForceSlotIndex: 0
   TargetIndex: 0
   Usable: 1
-  Consumable: 1
+  Consumable: 0
   ConsumeQuantity: 1
   Equippable: 1
   MoveWhenEquipped: 1
   Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
-  Quantity: 1
+  Quantity: 0
   ItemName: Makuring Lason
   ShortDescription: "Likidong pangunahing\r sangkap sa pagbuo ng gayuma"
   Description: "Likidong pangunahing\r sangkap sa pagbuo ng gayuma"
