@@ -71,7 +71,7 @@ MonoBehaviour:
     MaximumRotation: {x: 0, y: 0, z: 0}
     MinimumScale: {x: 1, y: 1, z: 1}
     MaximumScale: {x: 1, y: 1, z: 1}
-  MaximumStack: 5
+  MaximumStack: 100
   ItemClass: 0
   TargetEquipmentInventoryName: RogueMainInventory
   EquippedSound: {fileID: 0}

@@ -28,7 +28,7 @@ MonoBehaviour:
   ItemName: Prutas
   ShortDescription: Prutas
   Description: Prutas
-  Icon: {fileID: 1588615270321601044, guid: 26d435702dedb784694895af12418eff, type: 3}
+  Icon: {fileID: 21300000, guid: af4c542a3ecd0754e954afa6a76c12cf, type: 3}
   Prefab: {fileID: 863373810361116315, guid: 11d057f58f9b5f54a88d1a0a93e8156e, type: 3}
   DropProperties:
     Shape: 0
