@@ -4660,7 +4660,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Katambay/Map 2 Indoor_Line02)
+        value: AudioWait(Katambay/Map 2 Indoor_Line02);
         type: 0
         typeString: 
       conversationID: 7
@@ -4684,7 +4684,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 241.29839
+        x: 240.162
         y: 144.80594
         width: 160
         height: 30
@@ -5020,7 +5020,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 227.76505, y: 100.09438}
+    canvasScrollPosition: {x: 265.5163, y: 50.670887}
     canvasZoom: 0.8800001
   - id: 8
     fields:
