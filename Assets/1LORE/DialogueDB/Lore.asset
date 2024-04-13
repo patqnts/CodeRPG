@@ -8801,13 +8801,19 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 17
         originDialogueID: 0
         destinationConversationID: 17
         destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      - originConversationID: 17
+        originDialogueID: 0
+        destinationConversationID: 17
+        destinationDialogueID: 16
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -8866,7 +8872,7 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["2NPCDone"] == false
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -9383,7 +9389,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 148.60759
-        y: 609.1137
+        y: 608.3445
         width: 160
         height: 30
     - id: 12
@@ -9585,7 +9591,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["2NPCDone"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -9595,9 +9601,59 @@ MonoBehaviour:
         y: 407.65765
         width: 160
         height: 30
+    - id: 16
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Ikaw ay isang Balyana!\r Salamat na maray sa pagdadasal\r sa lupain
+          namin!"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 17
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: Variable["2NPCDone"] == true
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 418.5367
+        y: 89.75609
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 76.339005, y: 35.410416}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 63.701294, y: 0}
+    canvasZoom: 0.81999975
   - id: 18
     fields:
     - title: Title
