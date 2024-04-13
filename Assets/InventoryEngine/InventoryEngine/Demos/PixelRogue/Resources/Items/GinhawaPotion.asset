@@ -24,7 +24,7 @@ MonoBehaviour:
   Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
-  Quantity: 1
+  Quantity: 0
   ItemName: Ginhawa Potion
   ShortDescription: Ginhawa Potion
   Description: Ginhawa Potion
