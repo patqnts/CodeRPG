@@ -9,9 +9,9 @@ public class PlayerController : MonoBehaviour
 {
     public FixedJoystick joystick;
     public float moveSpeed = 5f;
+    public CircleCollider2D circleCollider;
     private Vector2 movementInput;
     private Animator animator;
-    public CircleCollider2D circleCollider;
     private Rigidbody2D rb;
     private void Start()
     {
@@ -68,6 +68,11 @@ public class PlayerController : MonoBehaviour
         circleCollider.enabled = true;
         yield return new WaitForSeconds(1f);
         circleCollider.enabled = false;
+    }
+
+    public void MoveToSpawn(Transform spawnPoint)
+    {
+        this.gameObject.transform.position = spawnPoint.position;
     }
 
     public void SaveInventory()
