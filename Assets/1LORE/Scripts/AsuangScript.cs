@@ -8,6 +8,7 @@ public class AsuangScript : MonoBehaviour
     public SpriteRenderer sprite;
     public Animator animator;
     public Transform[] movePositions;
+    public GameObject fireball;
     private bool isMoving = false;
     private bool isOnCooldown = false;
 
@@ -44,6 +45,10 @@ public class AsuangScript : MonoBehaviour
             sprite.flipX = false;
         }
     }
+    public void FireBall()
+    {
+        Instantiate(fireball, transform.position, transform.rotation);
+    }
 
     IEnumerator CompleteMoveset()
     {
@@ -67,6 +72,7 @@ public class AsuangScript : MonoBehaviour
 
             // Play attack animation
             animator.Play("Attack");
+            FireBall();
             yield return new WaitForSeconds(.35f);
             // Move to the selected position
             StartCoroutine(MoveToPosition(targetPosition));
