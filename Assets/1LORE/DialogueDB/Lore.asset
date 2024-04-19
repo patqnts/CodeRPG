@@ -5223,7 +5223,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line01)
         type: 0
         typeString: 
       conversationID: 8
@@ -5279,7 +5279,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line02)
         type: 0
         typeString: 
       conversationID: 8
@@ -5336,7 +5336,10 @@ MonoBehaviour:
       - title: Sequence
         value: '{{default}};
 
-          CinemachineTarget(Virtual Camera, Bonggo,follow)'
+          CinemachineTarget(Virtual Camera, Bonggo,follow);
+
+          AudioWait(Chapter
+          2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line03)'
         type: 0
         typeString: 
       conversationID: 8
@@ -5443,11 +5446,12 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Ang mga boggos ay\r kampon ni Asuang na nagliliyab\r mga mata. Lahat
-          ng matapat sa\r paningin nila ay masusunog."
+          ng matapat sa\r paningin nila ay masusunog.  Ito\r ay takot tumawid ng
+          sapa dahil\r mamamatay ito.\r"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line04)
         type: 0
         typeString: 
       conversationID: 8
@@ -5461,61 +5465,6 @@ MonoBehaviour:
       - originConversationID: 8
         originDialogueID: 5
         destinationConversationID: 8
-        destinationDialogueID: 6
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 280
-        y: 286
-        width: 160
-        height: 30
-    - id: 6
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 5
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: " Ito\r ay takot tumawid ng sapa dahil\r mamamatay ito.\r"
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 8
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 8
-        originDialogueID: 6
-        destinationConversationID: 8
         destinationDialogueID: 7
         isConnector: 0
         priority: 2
@@ -5527,7 +5476,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 280
-        y: 336
+        y: 286
         width: 160
         height: 30
     - id: 7
@@ -5557,7 +5506,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line05)
         type: 0
         typeString: 
       conversationID: 8
@@ -5586,8 +5535,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 252.86072, y: 260.0614}
-    canvasZoom: 0.7600002
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.46000051
   - id: 9
     fields:
     - title: Title
@@ -5717,7 +5666,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_Orasyon(Monster)_01)
         type: 0
         typeString: 
       conversationID: 9
@@ -6034,8 +5983,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.2099993
+    canvasScrollPosition: {x: 66.80883, y: 77.896996}
+    canvasZoom: 0.8199997
   - id: 10
     fields:
     - title: Title
@@ -6148,7 +6097,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -6164,7 +6113,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L1)
         type: 0
         typeString: 
       conversationID: 10
@@ -6215,11 +6164,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Ang Liwanag na \u2018yun ay\r\nnapupunta sa iyong agimat."
+        value: "Ang Liwanag na \u2018yun ay\r napupunta sa iyong agimat. Mas\r madaming
+          liwanag ang iyong\r makakalap ay mas malakas ang\r iyong magagawang mga
+          gamot.\r"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line06)
         type: 0
         typeString: 
       conversationID: 10
@@ -6233,7 +6184,7 @@ MonoBehaviour:
       - originConversationID: 10
         originDialogueID: 2
         destinationConversationID: 10
-        destinationDialogueID: 3
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -6247,62 +6198,6 @@ MonoBehaviour:
         y: 130
         width: 160
         height: 30
-    - id: 3
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 5
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "Mas\r madaming liwanag ang iyong\r makakalap ay mas malakas ang\r
-          iyong magagawang mga gamot.\r"
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 10
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 10
-        originDialogueID: 3
-        destinationConversationID: 10
-        destinationDialogueID: 4
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 160
-        y: 180
-        width: 160
-        height: 30
     - id: 4
       fields:
       - title: Title
@@ -6314,7 +6209,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -6330,7 +6225,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L2)
         type: 0
         typeString: 
       conversationID: 10
@@ -6387,7 +6282,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line07)
         type: 0
         typeString: 
       conversationID: 10
@@ -6442,7 +6337,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line08)
         type: 0
         typeString: 
       conversationID: 10
@@ -6466,7 +6361,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 158.86363
         y: 330
         width: 160
         height: 30
@@ -6497,7 +6392,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line09)
         type: 0
         typeString: 
       conversationID: 10
@@ -6555,7 +6450,10 @@ MonoBehaviour:
       - title: Sequence
         value: '{{default}};
 
-          CinemachineTarget(Virtual Camera, Player,follow);'
+          CinemachineTarget(Virtual Camera, Player,follow);
+
+          AudioWait(Chapter
+          2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line010)'
         type: 0
         typeString: 
       conversationID: 10
@@ -6578,8 +6476,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 25.110825, y: 19.175468}
+    canvasZoom: 0.6700003
   - id: 11
     fields:
     - title: Title
@@ -6709,7 +6607,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line011)
         type: 0
         typeString: 
       conversationID: 11
@@ -6928,7 +6826,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_Orasyon(atang))
         type: 0
         typeString: 
       conversationID: 12
@@ -6983,7 +6881,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L4)
         type: 0
         typeString: 
       conversationID: 12
@@ -7039,7 +6937,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line012)
         type: 0
         typeString: 
       conversationID: 12
@@ -7166,7 +7064,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 77.15264, y: 64.54018}
     canvasZoom: 1
   - id: 13
     fields:
@@ -7364,7 +7262,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line013)
         type: 0
         typeString: 
       conversationID: 13
@@ -7470,16 +7368,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Tumingin ka sa aklat
-
-          ng albularyo upang makahanap ng
-
-          ipanggagamot
-          mo, Sinag.'
+        value: Tumingin ka sa aklat ng albularyo upang makahanap ng ipanggagamot
+          mo, Sinag.
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line014)
         type: 0
         typeString: 
       conversationID: 13
@@ -7528,7 +7422,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L5)
         type: 0
         typeString: 
       conversationID: 13
@@ -7697,7 +7591,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L6)
         type: 0
         typeString: 
       conversationID: 13
@@ -7748,15 +7642,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Nakalimutan mo na ba na
-
-          isa yan sa pang alay kay
-
-          Gugurang?'
+        value: Nakalimutan mo na ba na isa yan sa pang alay kay Gugurang?
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line016)
         type: 0
         typeString: 
       conversationID: 13
@@ -7811,7 +7701,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L7)
         type: 0
         typeString: 
       conversationID: 13
@@ -7852,17 +7742,21 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Gamutin (Ginhawa Potion)
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Gamutin (Ginhawa Potion)
+        value: "Halamang\r nakakabuhay, magsilbing\r tagapagpalakas ka ng makakainom\r
+          nito at makadagdag sa kakayahan\r nitong makatalo ng masasamang\r elemento.\r"
         type: 0
         typeString: 
       - title: Sequence
         value: 'SetActive(Standing,true);
 
-          SetActive(Laying,false)'
+          SetActive(Laying,false);
+
+          AudioWait(Chapter
+          2/Sinag/Sinag_Orasyon(Healing)_01)'
         type: 0
         typeString: 
       conversationID: 13
@@ -7996,8 +7890,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 55.238182, y: 0}
-    canvasZoom: 0.8200002
+    canvasScrollPosition: {x: 0, y: 54.799408}
+    canvasZoom: 0.7000003
   - id: 14
     fields:
     - title: Title
@@ -8122,8 +8016,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Halamang\r\nnakakabuhay, magsilbing\r\ntagapagpalakas ka ng makakainom\r\nnito
-          at makadagdag sa kakayahan\r\nnitong makatalo ng masasamang\r\nelemento.\r"
+        value: "Halamang\r nakakabuhay, magsilbing\r tagapagpalakas ka ng makakainom\r
+          nito at makadagdag sa kakayahan\r nitong makatalo ng masasamang\r elemento.\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -8178,7 +8072,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Maaari mong balikan\r lahat ng ating natalakay sa\r\niyong aklat.\r"
+        value: "Maaari mong balikan\r lahat ng ating natalakay sa\r iyong aklat.\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -8337,11 +8231,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Gusto ko sana kainin pero\r\nsige sa\u2019yo na..\r"
+        value: "Gusto ko sana kainin pero\r sige sa\u2019yo na..\r"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L8)
         type: 0
         typeString: 
       conversationID: 15
@@ -8396,7 +8290,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Map 4 Rice Farm_Line01)
         type: 0
         typeString: 
       conversationID: 15
@@ -8451,7 +8345,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L9)
         type: 0
         typeString: 
       conversationID: 15
@@ -8502,12 +8396,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Alay na mataos\r\nnawa\u2019y magbaglik ito ng\r\nkalakasan. Gugurang
-          ang\r\nmakapangyarihan sa lahat ng\r\nnaghahari.\r"
+        value: "Alay na mataos\r nawa\u2019y magbaglik ito ng\r kalakasan. Gugurang
+          ang\r makapangyarihan sa lahat ng\r naghahari.\r"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_Orasyon(atang))
         type: 0
         typeString: 
       conversationID: 15
@@ -8700,8 +8594,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 0, y: 52.043514}
+    canvasZoom: 0.7600002
   - id: 16
     fields:
     - title: Title
@@ -8830,7 +8724,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L10)
         type: 0
         typeString: 
       conversationID: 16
@@ -9029,7 +8923,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9045,7 +8939,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L11)
         type: 0
         typeString: 
       conversationID: 17
@@ -9096,13 +8990,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Hindi, sigurado ako na
-
-          impluwensya ito ni Asuang. '
+        value: 'Hindi, sigurado ako na impluwensya ito ni Asuang. '
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Map 4 Rice Farm_Line02)
         type: 0
         typeString: 
       conversationID: 17
@@ -9153,12 +9045,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Maari kang gumawa ng ritual\r\npara maalis ang impluwensya ni\r\nAsuang
-          sa lupa na tinataniman\r\nnila.\r"
+        value: "Maari kang gumawa ng ritual\r para maalis ang impluwensya ni\r Asuang
+          sa lupa na tinataniman\r nila.\r"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Map 4 Rice Farm_Line03)
         type: 0
         typeString: 
       conversationID: 17
@@ -9197,7 +9089,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9213,7 +9105,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L12)
         type: 0
         typeString: 
       conversationID: 17
@@ -9313,7 +9205,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9329,7 +9221,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L13)
         type: 0
         typeString: 
       conversationID: 17
@@ -9483,7 +9375,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9499,7 +9391,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_L14)
         type: 0
         typeString: 
       conversationID: 17
@@ -9554,7 +9446,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/KATAMBAY/Chapter 2_Map 4 Rice Farm_Line04)
         type: 0
         typeString: 
       conversationID: 17
@@ -9786,8 +9678,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 63.701294, y: 0}
-    canvasZoom: 0.81999975
+    canvasScrollPosition: {x: 0, y: 230.1937}
+    canvasZoom: 0.64
   - id: 18
     fields:
     - title: Title
@@ -10072,7 +9964,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10080,16 +9972,12 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Alam ko ito.
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Alam ko ito, sabi nila
-
-          kailangan mo daw baligtarin ang
-
-          damit
-          mo kapag naliligaw ka.'
+        value: Alam ko ito, sabi nila kailangan mo daw baligtarin ang damit mo kapag
+          naliligaw ka.
         type: 0
         typeString: 
       - title: Sequence
@@ -10801,8 +10689,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 22.16674, y: 0}
-    canvasZoom: 0.8200002
+    canvasScrollPosition: {x: 39.16109, y: 61.073795}
+    canvasZoom: 0.52000046
   - id: 19
     fields:
     - title: Title
@@ -11261,7 +11149,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_Orasyon(atang))
         type: 0
         typeString: 
       conversationID: 20
@@ -11388,8 +11276,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 28.88393, y: 19.94246}
-    canvasZoom: 1.2399998
+    canvasScrollPosition: {x: 25.30906, y: 33.88506}
+    canvasZoom: 1.03
   - id: 21
     fields:
     - title: Title
@@ -11861,7 +11749,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 2/Sinag/Sinag_Orasyon(Monster)_01)
         type: 0
         typeString: 
       conversationID: 22
@@ -12078,7 +11966,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Boggos Death Animation
+        value: 
         type: 0
         typeString: 
       - title: Sequence
@@ -12164,8 +12052,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.8800001
+    canvasScrollPosition: {x: 50.65511, y: 92.09917}
+    canvasZoom: 0.9100001
   - id: 23
     fields:
     - title: Title
