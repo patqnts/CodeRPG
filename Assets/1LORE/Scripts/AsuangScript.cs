@@ -116,4 +116,9 @@ public class AsuangScript : MonoBehaviour
         FireBall();
         isMoving = false;
     }
+
+    public void DisableSelf()
+    {
+        gameObject.SetActive(false);
+    }
 }
