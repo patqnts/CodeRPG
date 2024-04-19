@@ -45,6 +45,11 @@ public class AsuangScript : MonoBehaviour
             sprite.flipX = false;
         }
     }
+
+    public void AswangAttackStart()
+    {
+        StartCoroutine(CompleteMoveset());
+    }
     public void FireBall()
     {
         Instantiate(fireball, transform.position, transform.rotation);
@@ -71,12 +76,11 @@ public class AsuangScript : MonoBehaviour
             Vector3 targetPosition = movePositions[Random.Range(0, movePositions.Length)].position;
 
             // Play attack animation
-            animator.Play("Attack");
-            FireBall();
+            
             yield return new WaitForSeconds(.35f);
             // Move to the selected position
             StartCoroutine(MoveToPosition(targetPosition));
-
+          
             // Wait for the move duration
             yield return new WaitForSeconds(moveDuration);
 
@@ -108,6 +112,8 @@ public class AsuangScript : MonoBehaviour
 
         // Ensure exact position at the end of movement
         transform.position = targetPosition;
+        animator.Play("Attack");
+        FireBall();
         isMoving = false;
     }
 }
