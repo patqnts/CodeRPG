@@ -1,3 +1,4 @@
+using PixelCrushers.DialogueSystem;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -44,5 +45,11 @@ public class EnemyScript : MonoBehaviour
             animator.Play("Attack");
         }
         
+    }
+
+    public void HideSelf()
+    {
+        this.GetComponent<SpriteRenderer>().enabled = false;
+        this.GetComponent<Usable>().enabled = false;
     }
 }

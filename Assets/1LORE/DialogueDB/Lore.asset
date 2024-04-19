@@ -5887,7 +5887,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Boggos Death Animation
+        value: 
         type: 0
         typeString: 
       - title: Sequence
@@ -5983,8 +5983,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 66.80883, y: 77.896996}
-    canvasZoom: 0.8199997
+    canvasScrollPosition: {x: 0, y: 35.920456}
+    canvasZoom: 0.7299998
   - id: 10
     fields:
     - title: Title
@@ -5996,7 +5996,7 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Actor
-      value: 3
+      value: 1
       type: 5
       typeString: CustomFieldType_Actor
     - title: Conversant
@@ -6042,7 +6042,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -6066,7 +6066,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 10
@@ -6116,6 +6116,10 @@ MonoBehaviour:
         value: AudioWait(Chapter 2/Sinag/Sinag_L1)
         type: 0
         typeString: 
+      - title: EventGuid
+        value: c25b1bcf-0758-4a97-85e8-f7ba8e9eb5b6
+        type: 0
+        typeString: 
       conversationID: 10
       isRoot: 0
       isGroup: 0
@@ -6156,7 +6160,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -6250,7 +6254,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 160
-        y: 230
+        y: 228.73416
         width: 160
         height: 30
     - id: 5
@@ -6268,7 +6272,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -6276,9 +6280,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ' May tatlong paraan para
-
-          ikaw ay makakuha ng Liwanag.'
+        value: ' May tatlong paraan para ikaw ay makakuha ng Liwanag.'
         type: 0
         typeString: 
       - title: Sequence
@@ -6325,7 +6327,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -6380,7 +6382,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -6435,7 +6437,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -6453,7 +6455,11 @@ MonoBehaviour:
           CinemachineTarget(Virtual Camera, Player,follow);
 
           AudioWait(Chapter
-          2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line010)'
+          2/KATAMBAY/Chapter 2_Tutorial Outdoor_Line010);'
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 0ce73fc1-6f55-4991-bea2-2f8b4cf8bede
         type: 0
         typeString: 
       conversationID: 10
@@ -6476,8 +6482,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 25.110825, y: 19.175468}
-    canvasZoom: 0.6700003
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.64000034
   - id: 11
     fields:
     - title: Title
@@ -7249,7 +7255,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -7360,7 +7366,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -7465,7 +7471,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -7575,7 +7581,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -7634,7 +7640,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -7671,7 +7677,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 391.35715
-        y: 399.8572
+        y: 398.48737
         width: 160
         height: 30
     - id: 10
@@ -7685,7 +7691,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -7751,7 +7757,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Standing,true);
+        value: 'SetActive(Standing1,true);
 
           SetActive(Laying,false);
 
@@ -7890,8 +7896,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 54.799408}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 25.505066, y: 213.3115}
+    canvasZoom: 0.73000026
   - id: 14
     fields:
     - title: Title
@@ -8712,7 +8718,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -8742,7 +8748,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 161
         y: 80
         width: 160
         height: 30
@@ -8871,7 +8877,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -8982,7 +8988,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9037,7 +9043,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9264,7 +9270,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9434,7 +9440,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9583,11 +9589,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9639,11 +9645,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9678,8 +9684,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 230.1937}
-    canvasZoom: 0.64
+    canvasScrollPosition: {x: 261.56808, y: 81.0724}
+    canvasZoom: 0.87999976
   - id: 18
     fields:
     - title: Title
@@ -9802,7 +9808,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9912,7 +9918,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10024,7 +10030,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10032,12 +10038,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Sige pupunta lang ako sa
-
-          likod ng puno para baligtarin
-
-          ang
-          damit ko.'
+        value: Sige pupunta lang ako sa likod ng puno para baligtarin ang damit ko.
         type: 0
         typeString: 
       - title: Sequence
@@ -10080,11 +10081,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10092,7 +10093,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Bakit nga ba kailangan\r\nbaligtarin ang damit?\r"
+        value: "Bakit nga ba kailangan\r baligtarin ang damit?\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -10139,7 +10140,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10147,8 +10148,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Kapag naliligaw ang\r isang tao, minsan ay epekto ito\r\nng nilalang
-          na tinatawag na\r\ntambaluslos.\r"
+        value: "Kapag naliligaw ang\r isang tao, minsan ay epekto ito\r ng nilalang
+          na tinatawag na\r tambaluslos.\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -10191,7 +10192,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10250,7 +10251,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10258,8 +10259,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Errm.. Ehem. Madaming\r\nsabi sabi sa rason ng\r\npagbaligtad ng
-          damit..\r"
+        value: "Errm.. Ehem. Madaming\r sabi sabi sa rason ng\r pagbaligtad ng damit..\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -10306,7 +10306,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10362,7 +10362,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10418,7 +10418,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10473,7 +10473,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10532,7 +10532,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10583,7 +10583,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10689,8 +10689,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 39.16109, y: 61.073795}
-    canvasZoom: 0.52000046
+    canvasScrollPosition: {x: 216.00192, y: 34.944626}
+    canvasZoom: 1.0300001
   - id: 19
     fields:
     - title: Title
@@ -11774,7 +11774,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 209.68877
-        y: 273.94336
+        y: 272.72388
         width: 160
         height: 30
     - id: 11
@@ -11958,7 +11958,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -11970,9 +11970,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: '{{default}};
-
-          CinemachineTarget(Virtual Camera, Bonggo,follow);
+        value: 'CinemachineTarget(Virtual Camera, Bonggo,follow);
 
           AnimatorPlay(Death)'
         type: 0
@@ -11998,7 +11996,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 209.68877
+        x: 210.90828
         y: 344.60455
         width: 160
         height: 30
@@ -12052,8 +12050,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 50.65511, y: 92.09917}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 87.312515, y: 95.35214}
+    canvasZoom: 0.8200002
   - id: 23
     fields:
     - title: Title
