@@ -1,3 +1,4 @@
+using PixelCrushers.DialogueSystem;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -93,6 +94,7 @@ public class AsuangScript : MonoBehaviour
             elapsedTime += moveDuration + idleDuration;
             Debug.Log(elapsedTime);
         }
+        DialogueManager.StartConversation("Liwanag");
     }
 
     IEnumerator MoveToPosition(Vector3 targetPosition)
@@ -120,5 +122,10 @@ public class AsuangScript : MonoBehaviour
     public void DisableSelf()
     {
         gameObject.SetActive(false);
+    }
+
+    public void ToggleSpriteRenderer(int layer)
+    {
+        sprite.sortingOrder = layer;
     }
 }
