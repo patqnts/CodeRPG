@@ -12180,7 +12180,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Sinag/Sinag_L1_01)
         type: 0
         typeString: 
       conversationID: 23
@@ -12235,7 +12235,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Katambay/Chapter 3_Map 6 Inside Mayon_Line01)
         type: 0
         typeString: 
       conversationID: 23
@@ -12290,7 +12290,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Sinag/Sinag_L2_01)
         type: 0
         typeString: 
       conversationID: 23
@@ -12368,8 +12368,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 0, y: 6.1855774}
+    canvasZoom: 0.96999955
   - id: 24
     fields:
     - title: Title
@@ -12504,7 +12504,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Gugurang/Scene9_Line4)
         type: 0
         typeString: 
       conversationID: 24
@@ -12559,7 +12559,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Sinag/Sinag_L4_01)
         type: 0
         typeString: 
       conversationID: 24
@@ -12615,7 +12615,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Gugurang/Scene9_Line6)
         type: 0
         typeString: 
       conversationID: 24
@@ -12671,7 +12671,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Gugurang/Scene9_Line7)
         type: 0
         typeString: 
       conversationID: 24
@@ -12727,7 +12727,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Gugurang/Scene9_Line8)
         type: 0
         typeString: 
       conversationID: 24
@@ -12784,7 +12784,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Gugurang/Scene9_Line9)
         type: 0
         typeString: 
       conversationID: 24
@@ -12840,7 +12840,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Sinag/Sinag_L5_01)
         type: 0
         typeString: 
       conversationID: 24
@@ -12895,7 +12895,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Gugurang/Scene9_Line11_01)
         type: 0
         typeString: 
       conversationID: 24
@@ -13081,8 +13081,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.8800001
+    canvasScrollPosition: {x: 0, y: 13.918512}
+    canvasZoom: 0.7300003
   - id: 25
     fields:
     - title: Title
@@ -13211,7 +13211,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Sinag/Sinag_L6)
         type: 0
         typeString: 
       conversationID: 25
@@ -13266,7 +13266,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Katambay/Chapter 3_Cutscene 11 Foot of Malinao_Line01)
         type: 0
         typeString: 
       conversationID: 25
@@ -13280,7 +13280,7 @@ MonoBehaviour:
       - originConversationID: 25
         originDialogueID: 2
         destinationConversationID: 25
-        destinationDialogueID: 3
+        destinationDialogueID: 5
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13321,7 +13321,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 3/Sinag/Sinag_L7_01)
         type: 0
         typeString: 
       conversationID: 25
@@ -13402,9 +13402,64 @@ MonoBehaviour:
         y: 230
         width: 160
         height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: " Mag iingat ka Sinag,\r hindi biro ang lugar na ito."
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: AudioWait(Chapter 3/Katambay/Chapter 3_Map 7 Inside Malinao_Line01)
+        type: 0
+        typeString: 
+      conversationID: 25
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 25
+        originDialogueID: 5
+        destinationConversationID: 25
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 407.24414
+        y: 150.86613
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.7900002
+    canvasScrollPosition: {x: 61.92127, y: 20.299536}
+    canvasZoom: 1.2699997
   - id: 26
     fields:
     - title: Title
@@ -15991,8 +16046,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 48.4728, y: 70.0491}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.9100001
   - id: 31
     fields:
     - title: Title
