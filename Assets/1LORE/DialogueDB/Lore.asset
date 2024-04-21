@@ -15507,7 +15507,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Sinag/1. Sinag-scene 12 L1_01)
         type: 0
         typeString: 
       - title: EventGuid
@@ -15567,7 +15567,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Asuang/2. Asuang-scene12_L2_01)
         type: 0
         typeString: 
       conversationID: 30
@@ -15623,7 +15623,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Sinag/2. Sinag-scene12_L2_01)
         type: 0
         typeString: 
       - title: EventGuid
@@ -15684,7 +15684,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Asuang/3. Asuang-scene12_L3)
         type: 0
         typeString: 
       conversationID: 30
@@ -15740,7 +15740,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Sinag/3. Sinag-scene12_L3_01)
         type: 0
         typeString: 
       conversationID: 30
@@ -15795,7 +15795,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Asuang/4. Asuang-Laugh)
         type: 0
         typeString: 
       - title: EventGuid
@@ -15907,7 +15907,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Asuang/1. Asuang- scene12_L1)
         type: 0
         typeString: 
       conversationID: 30
@@ -16046,8 +16046,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 49.01282, y: 31.284805}
+    canvasZoom: 0.97
   - id: 31
     fields:
     - title: Title
@@ -16176,7 +16176,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Katambay/Chapter 4_Map 7 Inside Malinao_Line01)
         type: 0
         typeString: 
       conversationID: 31
@@ -16232,7 +16232,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Sinag/4. Sinag-scene12_L4_01)
         type: 0
         typeString: 
       conversationID: 31
@@ -16255,8 +16255,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 19.173124, y: 13.11323}
+    canvasZoom: 1.1499999
   - id: 32
     fields:
     - title: Title
@@ -16385,7 +16385,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Chapter 4/Asuang/5. Asuang-map7_L1_01)
         type: 0
         typeString: 
       conversationID: 32
@@ -16440,7 +16440,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AnimatorPlay(Death, Asuang)
+        value: 'AnimatorPlay(Death, Asuang);
+
+          AudioWait(Chapter 4/Asuang/6.
+          Asuang-map7_L2)'
         type: 0
         typeString: 
       conversationID: 32
