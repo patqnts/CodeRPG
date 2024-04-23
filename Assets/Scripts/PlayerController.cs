@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
         joystick = FindObjectOfType<FixedJoystick>();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-
     }
 
     private void Update()
@@ -77,12 +76,12 @@ public class PlayerController : MonoBehaviour
 
     public void SaveInventory()
     {
-        MMGameEvent.Trigger("Save");
+        MMEventManager.TriggerEvent(new MMGameEvent("Save"));
     }
 
     public void LoadInventory()
     {
-        MMGameEvent.Trigger("Load");
+        MMEventManager.TriggerEvent(new MMGameEvent("Load"));
     }
 
     void OnDisable()

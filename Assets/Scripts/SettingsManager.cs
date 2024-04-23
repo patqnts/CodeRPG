@@ -7,17 +7,14 @@ public class SettingsManager : MonoBehaviour
     public Slider volumeSlider;
     public Slider brightnessSlider;
     public Image image;
-    private Volume volume;
-
+    
     private void Start()
     {
-        volume = FindObjectOfType<Volume>();
+        
         // Load saved settings on start
         LoadSettings();
 
-        // Set initial values for sliders
-        if (volumeSlider != null)
-            volumeSlider.value = PlayerPrefs.GetFloat("Volume", 1f);
+      
 
         if (brightnessSlider != null)
             brightnessSlider.value = PlayerPrefs.GetFloat("Brightness", 1f);
@@ -40,7 +37,7 @@ public class SettingsManager : MonoBehaviour
         if (brightnessSlider != null)
         {
             // Update brightness slider
-            volume.weight = brightnessSlider.value;
+           
 
             // Update image color based on the inverted brightness value
             UpdateImageColor(1f - brightnessSlider.value);
