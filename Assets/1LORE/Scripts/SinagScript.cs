@@ -113,7 +113,8 @@ public class SinagScript : MonoBehaviour
 
         //Player Spawnpoint script
         PlayerController.player.moveSpeed = 0;
-        Instantiate(deathScreen);
+        AsuangScript.instance.ToggleSpriteRenderer(2);
+        deathScreen.SetActive(true);
         AsuangScript.instance.StopAllCoroutines();
        
     }

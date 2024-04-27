@@ -713,6 +713,20 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: 
+  - id: 17
+    fields:
+    - title: Name
+      value: AsuangEncountered
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 1
     fields:
@@ -15417,13 +15431,19 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 30
         originDialogueID: 0
         destinationConversationID: 30
         destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      - originConversationID: 30
+        originDialogueID: 0
+        destinationConversationID: 30
+        destinationDialogueID: 10
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -15481,8 +15501,8 @@ MonoBehaviour:
         destinationDialogueID: 9
         isConnector: 0
         priority: 2
-      conditionsString: 
-      userScript: 
+      conditionsString: Variable["AsuangEncountered"] == false
+      userScript: Variable["AsuangEncountered"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -15541,7 +15561,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Aswang_Health"] = 5
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -15991,7 +16011,7 @@ MonoBehaviour:
         destinationDialogueID: 11
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["AsuangEncountered"] == true
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -16058,8 +16078,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 49.01282, y: 31.284805}
-    canvasZoom: 0.97
+    canvasScrollPosition: {x: 4.4704685, y: 0}
+    canvasZoom: 0.85000014
   - id: 31
     fields:
     - title: Title
@@ -16935,8 +16955,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 118.46169}
-    canvasZoom: 0.88000023
+    canvasScrollPosition: {x: 77.808815, y: 19.100685}
+    canvasZoom: 0.97000027
   - id: 34
     fields:
     - title: Title
