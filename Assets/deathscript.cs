@@ -6,7 +6,8 @@ public class deathscript : MonoBehaviour
 {
     public void ConfirmButton()
     {
-        SinagScript.instance.Respawn();
+        SinagScript.instance.Respawn();       
+        PlayerController.player.moveSpeed = 3;
         Destroy(gameObject);
     }
 }

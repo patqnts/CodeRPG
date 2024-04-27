@@ -44,6 +44,7 @@ public class SinagScript : MonoBehaviour
     {
         SinagData sinagData = new SinagData();
         sinagData.Health = Health;
+        sinagData.spawnIndex = this.spawnIndex;
         sinagData.playerPos = this.transform.position;
 
         string json = JsonUtility.ToJson(sinagData);
@@ -72,6 +73,7 @@ public class SinagScript : MonoBehaviour
                 string json = File.ReadAllText(savePath);
                 SinagData sinag = JsonUtility.FromJson<SinagData>(json);
                 Health = sinag.Health;
+                spawnIndex = sinag.spawnIndex;
                 this.transform.position = sinag.playerPos;
 
                 
@@ -108,8 +110,9 @@ public class SinagScript : MonoBehaviour
 
     public void DeathMethod() 
     {
-        
+
         //Player Spawnpoint script
+        PlayerController.player.moveSpeed = 0;
         Instantiate(deathScreen);
         AsuangScript.instance.StopAllCoroutines();
        

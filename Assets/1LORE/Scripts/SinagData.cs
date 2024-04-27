@@ -8,4 +8,5 @@ public class SinagData
 {
     public int Health;
     public Vector2 playerPos;
+    public int spawnIndex;
 }

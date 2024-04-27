@@ -10,11 +10,11 @@ public class PlayerController : MonoBehaviour
     public FixedJoystick joystick;
     public float moveSpeed = 5f;
     public CircleCollider2D circleCollider;
-    private Vector2 movementInput;
+    public Vector2 movementInput;
     private Animator animator;
     private Rigidbody2D rb;
     public static PlayerController player;
-
+    public bool controllerEnabled;
     private void Awake()
     {
         player = this;
@@ -28,8 +28,12 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        movementInput.x = Input.GetAxisRaw("Horizontal");
-        movementInput.y = Input.GetAxisRaw("Vertical");        
+        if (controllerEnabled)
+        {
+            movementInput.x = Input.GetAxisRaw("Horizontal");
+            movementInput.y = Input.GetAxisRaw("Vertical");
+        }
+              
     }
 
     private void FixedUpdate()
