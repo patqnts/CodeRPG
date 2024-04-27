@@ -13,6 +13,12 @@ public class PlayerController : MonoBehaviour
     private Vector2 movementInput;
     private Animator animator;
     private Rigidbody2D rb;
+    public static PlayerController player;
+
+    private void Awake()
+    {
+        player = this;
+    }
     private void Start()
     {
         joystick = FindObjectOfType<FixedJoystick>();
@@ -23,17 +29,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         movementInput.x = Input.GetAxisRaw("Horizontal");
-        movementInput.y = Input.GetAxisRaw("Vertical");
-
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            SaveInventory();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            LoadInventory();
-        }
+        movementInput.y = Input.GetAxisRaw("Vertical");        
     }
 
     private void FixedUpdate()
@@ -81,7 +77,7 @@ public class PlayerController : MonoBehaviour
 
     public void LoadInventory()
     {
-        MMEventManager.TriggerEvent(new MMGameEvent("Load"));
+        MMGameEvent.Trigger("Load");
     }
 
     void OnDisable()

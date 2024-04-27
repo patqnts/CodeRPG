@@ -410,7 +410,8 @@ namespace MoreMountains.InventoryEngine
 				}
 				UpdateInventoryContent();
 			}
-		}
+			
+        }
 
 		/// <summary>
 		/// Fills the last content of the update.

@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine.UI;
-
+using System;
 namespace MoreMountains.InventoryEngine
 {
     /// <summary>
@@ -344,6 +344,7 @@ namespace MoreMountains.InventoryEngine
                 {
                     CloseInventory();
                 }
+                
             }
 
             if (Input.GetKeyDown(CancelKey))

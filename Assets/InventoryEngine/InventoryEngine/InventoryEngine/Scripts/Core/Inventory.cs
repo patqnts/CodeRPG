@@ -891,7 +891,7 @@ namespace MoreMountains.InventoryEngine
                     else
                     {
                         AddItem(inventoryEvent.EventItem, inventoryEvent.Quantity);    
-                    }
+                    }                    
                     break;
 
                 case MMInventoryEventType.UseRequest:
