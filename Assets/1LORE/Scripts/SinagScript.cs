@@ -34,6 +34,11 @@ public class SinagScript : MonoBehaviour
     {
         TakeDamage(0);
     }
+
+    public void SetSpawnIndex(int index)
+    {
+        spawnIndex = index;
+    }
     public void PlaySound(int index)
     {
         audioSource.clip = clips[index];
