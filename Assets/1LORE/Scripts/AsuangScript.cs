@@ -18,9 +18,11 @@ public class AsuangScript : MonoBehaviour
     public float movesetDuration = 10f; // Duration of the entire moveset
     public float cooldownDuration = 5f; // Cooldown duration between movesets
 
+    public static AsuangScript instance;
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
         // Find the player object by tag
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }

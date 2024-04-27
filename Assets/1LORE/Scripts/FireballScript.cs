@@ -11,7 +11,6 @@ public class FireballScript : MonoBehaviour
     private Transform player; // Reference to the player's transform
     private bool isHit = false; // Flag to track if the fireball has hit the player
     public AudioSource audiosource;
-    public AudioClip HitSound;
     void Start()
     {
         // Find the player object by tag
@@ -27,14 +26,14 @@ public class FireballScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("HIT");
-        if (collision.gameObject.tag == "Hitbox")
+        Debug.Log(collision.gameObject.tag);
+        if (collision.gameObject.tag == "Player")
         {
-            
             // Set the flag to indicate that the fireball has hit the player
             Vector3 direction = (player.position - transform.position).normalized;
             GetComponent<Rigidbody2D>().velocity = direction * 0f;
             isHit = true;
+            SinagScript.instance.TakeDamage(1);
 
             // Play hit animation
              

@@ -125,6 +125,8 @@ MonoBehaviour:
   speed: 10
   lifetime: 7
   animator: {fileID: 3166419296527734845}
+  audiosource: {fileID: 3281833957117156615}
+  HitSound: {fileID: 8300000, guid: 5beaac8c742026b408ef85772caad76e, type: 3}
 --- !u!58 &2754975487874936022
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -197,7 +199,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 11defeaa23907cf40b0d015681caed4a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

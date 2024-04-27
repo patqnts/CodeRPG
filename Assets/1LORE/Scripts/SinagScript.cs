@@ -11,20 +11,33 @@ public class SinagScript : MonoBehaviour
 {
     public int Health;
     public int MaxHealth;
+    public Transform[] spawnpoints; 
+    public int spawnIndex; 
     public Inventory weapon;
     public Inventory main;
     public static SinagScript instance;
     public Text healthText;
     private string savePath;
     public GameObject deathScreen;
+    public AudioSource audioSource;
+    public AudioClip[] clips;
+    
+    // 0 - hurt
+    // 1 - interact/pick
+    // 2- orasyon sound effect
     private void Awake()
     {
         instance = this;
         savePath = Path.Combine(Application.persistentDataPath, "playerData.json");
     }
-
-    void Start()
+    private void Start()
     {
+        TakeDamage(0);
+    }
+    public void PlaySound(int index)
+    {
+        audioSource.clip = clips[index];
+        audioSource.Play();
     }
 
     public void SavePlayerData()
@@ -87,12 +100,25 @@ public class SinagScript : MonoBehaviour
             Debug.Log("Death");
             Health = 0;
             //Restart spawnpoint
+            DeathMethod();
         }
         healthText.text = $"{Health}/{MaxHealth}";
+        PlaySound(0);
     }
 
     public void DeathMethod() 
     {
+        
+        //Player Spawnpoint script
+        Instantiate(deathScreen);
+        AsuangScript.instance.StopAllCoroutines();
+       
+    }
 
+    public void Respawn()
+    {
+        Health = 1;
+        TakeDamage(0);
+        this.transform.position = spawnpoints[spawnIndex].position;
     }
 }
