@@ -10,7 +10,8 @@ public class FireballScript : MonoBehaviour
 
     private Transform player; // Reference to the player's transform
     private bool isHit = false; // Flag to track if the fireball has hit the player
-
+    public AudioSource audiosource;
+    public AudioClip HitSound;
     void Start()
     {
         // Find the player object by tag

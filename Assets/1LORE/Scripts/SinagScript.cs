@@ -5,16 +5,18 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SinagScript : MonoBehaviour
 {
     public int Health;
+    public int MaxHealth;
     public Inventory weapon;
     public Inventory main;
     public static SinagScript instance;
-
+    public Text healthText;
     private string savePath;
-
+    public GameObject deathScreen;
     private void Awake()
     {
         instance = this;
@@ -77,13 +79,20 @@ public class SinagScript : MonoBehaviour
         if(Health > 0)
         {
             Health -= damage;
+            
         }
 
-        if(Health < 0)
+        if(Health <= 0)
         {
             Debug.Log("Death");
+            Health = 0;
             //Restart spawnpoint
         }
-        
+        healthText.text = $"{Health}/{MaxHealth}";
+    }
+
+    public void DeathMethod() 
+    {
+
     }
 }

@@ -8,6 +8,7 @@ public class EnemyScript : MonoBehaviour
 {
     public InventoryWeaponCheck weaponCheck;
     public Animator animator;
+    public int damageAttack;
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -51,5 +52,10 @@ public class EnemyScript : MonoBehaviour
     {
         this.GetComponent<SpriteRenderer>().enabled = false;
         this.GetComponent<Usable>().enabled = false;
+    }
+
+    public void AttackMethod()
+    {
+        SinagScript.instance.TakeDamage(damageAttack);
     }
 }
